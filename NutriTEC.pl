@@ -35,6 +35,9 @@ positive([claro|S],S).
 determinante([yo|S],S).
 determinante(['Yo'|S],S).
 
+% Sustantivo
+sustantivo_g([_|S],S).
+
 % Verbos conjugados posibles
 verb([deseo|S],S).
 verb([tengo|S],S).
@@ -75,34 +78,14 @@ oracion(A,B):-
 
 % Recibe una lista de palabras y una lista vacía; elimina el primer sintagma nominal encontrado
 sintagma_nominal(A,B):-
-    determinante_m(A,C),
+    determinante(A,C),
     sintagma_verbal(C,Z),
 	sustantivo_g(Z,B).
-sintagma_nominal(A,B):-
-    determinante_f(A,C),
-    sintagma_verbal(C,Z),
-	sustantivo_g(Z,B).
-sintagma_nominal(A,B):-
-    determinante_n(A,C),
-    sintagma_verbal(C,Z),
-	sustantivo_g(Z,B).
-sintagma_nominal(A,B):-
-    determinante_n(A,C),
-    sintagma_verbal(C,Z),
-    determinante_m(Z,Y),
-	sustantivo_g(Y,B).
-sintagma_nominal(A,B):-
-    determinante_n(A,C),
-    sintagma_verbal(C,Z),
-    determinante_f(Z,Y),
-	sustantivo_g(Y,B).
-sintagma_nominal(A,B):-
-    determinante_n(A,C),
-    sintagma_verbal(C,Z),
-	sustantivo_g(Z,B).
+
 sintagma_nominal(A,B):-
 	sintagma_verbal(A,C),
     sustantivo_g(C,B).
+
 sintagma_nominal(A,B):-
     sintagma_verbal(A,B).
 
