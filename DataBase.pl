@@ -1,5 +1,5 @@
 %dietas
-diet([hipocalorica|S],S).   % sobrepeso u obesidad  diabetes, el colesterol o la hipertensión arterial
+diet([hipocalorica|S],S).   % sobrepeso u obesidad  diabetes, el colesterol o la hipertensiï¿½n arterial
 
 diet([hipercalorica|S],S).  % desnutricion - subir masa muscular
 
@@ -17,24 +17,24 @@ diet([hipercalorica|S],S).  % desnutricion - subir masa muscular
 Desayuno
 1 vaso de leche desnatada.
 40 g de cereales.
-Café solo o infusión
+Cafï¿½ solo o infusiï¿½n
 
 Merienda medio
 20 g de pan.
-60 g de jamón york.
-Café o infusión
+60 g de jamï¿½n york.
+Cafï¿½ o infusiï¿½n
 
 Almuerzo
 150 g de coliflor hervida.
 75 g de pollo asado.
 100 g de patatas.
 20 g de pan.
-200 g de piña natural.
+200 g de piï¿½a natural.
 
 Merienda tarde
 20 g de pan
 50 g de queso.
-Café o infusión.
+Cafï¿½ o infusiï¿½n.
 
 Cena
 15 g de pasta
@@ -53,23 +53,23 @@ Cena
 Desayuno
 2 yogures desnatados.
 30 g de galletas.
-Café o infusión.
+Cafï¿½ o infusiï¿½n.
 
 Merienda medio
 15 g de biscotes.
 40 g de queso fresco.
-Café o infusión.
+Cafï¿½ o infusiï¿½n.
 
 Almuerzo
 150 g de verduras.
-75 g de albóndigas.
+75 g de albï¿½ndigas.
 30 g de arroz.
 20 g de pan.
 200 g de fresas.
 
 Merienda tarde
 15 g de galletas.
-Café con 100 ml de leche desnatada.
+Cafï¿½ con 100 ml de leche desnatada.
 
 Cena
 150 g de lechuga
@@ -87,23 +87,23 @@ Desayuno
 60 g de cereales integrales.
 1 yogurt.
 2 piezas de fruta.
-Café solo o infusión.
+Cafï¿½ solo o infusiï¿½n.
 
 
 Merienda medio
 60 g de pan.
-90 g de jamón york.
+90 g de jamï¿½n york.
 150 g de tomate.
-Café o infusión con 100 ml de leche.
+Cafï¿½ o infusiï¿½n con 100 ml de leche.
 
 
 Almuerzo
 300 g de coliflor hervida
-15 g de jamón serrano en tacos.
+15 g de jamï¿½n serrano en tacos.
 150 g de pollo asado.
 150 g de patatas.
 60 g de pan.
-400 g de melón.
+400 g de melï¿½n.
 
 
 Merienda tarde
@@ -111,15 +111,15 @@ Merienda tarde
 75 g de nueces
 160 g de manzana
 200 ml de leche.
-Café solo o infusión.
+Cafï¿½ solo o infusiï¿½n.
 
 
 Cena
 300 g de verduras
 50 g de guisantes
-35 g de requesón.
+35 g de requesï¿½n.
 150 g de sardinas a la plancha.
-150 g de espárragos
+150 g de espï¿½rragos
 100 g de patatas cocidas.
 40 g de pan.
 300 g de mandarinas.
@@ -130,7 +130,7 @@ Desayuno
 2 yogures desnatados.
 100 g de galletas.
 3 piezas de fruta.
-Café con 100 ml de leche.
+Cafï¿½ con 100 ml de leche.
 
 
 Merienda medio
@@ -138,7 +138,7 @@ Merienda medio
 100 g de almendras.
 100 g de zanahoria cruda.
 2 yogurt.
-Café solo o infusión
+Cafï¿½ solo o infusiï¿½n
 
 
 
@@ -154,20 +154,93 @@ Almuerzo
 
 Merienda tarde
 100 g de pan.
-100 g de jamón york.
-Café solo o infusión con 200 ml de leche.
-2 pieza de fruta pequeña.
+100 g de jamï¿½n york.
+Cafï¿½ solo o infusiï¿½n con 200 ml de leche.
+2 pieza de fruta pequeï¿½a.
 
 
 
 Cena
 250 g de alcachofas.
-250 g de salmón a la plancha.
-150 g de puré de patatas (con 100 ml de leche).
+250 g de salmï¿½n a la plancha.
+150 g de purï¿½ de patatas (con 100 ml de leche).
 100 g de pan.
 240 g de manzana.
 
 
+Keto 1
+Desayuno
+tortitas
+2 huevos
+2 cucharadas de aceite de oliva
+2 cucharadas de jarabe de arce
+Esencia de vainilla
+Sal del himalaya
+1 cucharada de levadura en polvo
+120 gr. de harina
+Media cucharada de leche de almendra
+2 cucharadas de mantequilla
+
+Merienda Media
+chips de parmesano
+1 triÃ¡ngulo de queso parmesano por raciÃ³n
+Albahaca
+Sal
+Pimienta
+
+Almuerzo
+salmÃ³n con brÃ³coli y kale
+1 filete de salmÃ³n
+100 gr de brÃ³coli
+3 cucharadas de almendras
+Pimienta
+Nuez moscada
+Canela
+2 puÃ±ados de kale
+Merienda Media
+100 gr de cecina o jamÃ³n
+
+Cena
+ramen de ternera
+150 gr de ternera
+60 gr de col pak choi
+2 unidades de citronela
+Medio pimiento rojo
+30 gr de nueces
+50 gr de kale
+Caldo de huesos
+
+Keto 2
+Desayuno 
+250 gr de yogur de coco
+1 cucharada de proteÃ­na
+30 gr de almendras
+20 gr de mantequilla
+
+Merienda Media
+100 gr de cecina o jamÃ³n
+
+Almuerzo
+Ensalada de pastrami
+80 gr de pastrami
+80 gr de espinacas
+60 gr de kimchi
+50 gr de crema de queso
+
+Merienda Media
+brÃ³coli picante
+80 gr de brÃ³coli asado
+10 gr de chile cortados en trozos y asados
+
+Cena
+gambas con arroz de coliflor
+100 gr de coliflor
+1 cucharada de aceite de coco
+50 gr de judÃ­as verdes
+150 gr de gambas
+50 gr de crema de queso
+1 puÃ±ado de cacahuetes machacados
+10 gr de cebollino
 
 
 
@@ -179,9 +252,9 @@ diet([paleo|S],S).
 diet([alcalina|S],S).
 diet([mediterranea|S],S). %enfermedades cardiovasculares
 diet([vegana|S],S).
-diet([keto|S],S).
+diet([keto|S],S).%no diabeticos, bajar de peso
 
-Padecimientos [[Dislipidemia“Problemas del control del colesterol” “Dieta baja en grasas”]
-Padecimientos [Hipercolesterolemia “aumento de los niveles considerados normales de colesterol en la sangre” “Dieta vegana”]
-NivelesActividad [Inicial (0-2 veces)|Intermedio (3-4 veces)|Avanzado (5 ó más veces)]
-Dietas [NombreDieta TipoDieta Calorías[padecimientos NO recomendados] [padecimiento recomendados] [Actividades NO recomendadas][Actividades recomendadas] [Detalle Dieta]]
+Padecimientos [[Dislipidemiaï¿½Problemas del control del colesterolï¿½ ï¿½Dieta baja en grasasï¿½]
+Padecimientos [Hipercolesterolemia ï¿½aumento de los niveles considerados normales de colesterol en la sangreï¿½ ï¿½Dieta veganaï¿½]
+NivelesActividad [Inicial (0-2 veces)|Intermedio (3-4 veces)|Avanzado (5 ï¿½ mï¿½s veces)]
+Dietas [NombreDieta TipoDieta Calorï¿½as[padecimientos NO recomendados] [padecimiento recomendados] [Actividades NO recomendadas][Actividades recomendadas] [Detalle Dieta]]
