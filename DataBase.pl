@@ -1,7 +1,7 @@
 %dietas
 diet([hipocalorica|S],S).   % sobrepeso u obesidad  diabetes, el colesterol o la hipertensi?n arterial
 diet([hipercalorica|S],S).  % desnutricion - subir masa muscular
-diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmunes, fibromialgia, sï¿½ndrome de fatiga crï¿½nica y la tan temida inflamaciï¿½n
+diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmunes, fibromialgia, s?ndrome de fatiga cr?nica y la tan temida inflamaci?n
 diet([mediterranea|S],S). % enfermedades cardiovasculares, enfermedades cerebrovasculares
 diet([keto|S],S). % no diabeticos, bajar de peso
 diet([vegetariana|S],S). %
@@ -182,13 +182,13 @@ tomate natural con perejil.
 
 Almuerzo
 Alcachofas al vapor
-Batido de apio y piï¿½a
+Batido de apio y pi?a
 infusion te verde
 
 
 
 Merienda tarde
-zumo de naranja y piï¿½a
+zumo de naranja y pi?a
 
 
 
@@ -225,12 +225,12 @@ zumo de naranja.
 
 
 Merienda tarde
-papaya y piï¿½a.
+papaya y pi?a.
 
 Cena
 Batido detox.
 3 pepinos.
-1 piï¿½a.
+1 pi?a.
 semillas de sesamo.
 3 vasos de agua.
 zumo de uvas rojas.
@@ -251,22 +251,22 @@ Media cucharada de leche de almendra
 
 Merienda Media
 chips de parmesano
-1 triï¿½ngulo de queso parmesano por raciï¿½n
+1 tri?ngulo de queso parmesano por raci?n
 Albahaca
 Sal
 Pimienta
 
 Almuerzo
-salmï¿½n con brï¿½coli y kale
-1 filete de salmï¿½n
-100 gr de brï¿½coli
+salm?n con br?coli y kale
+1 filete de salm?n
+100 gr de br?coli
 3 cucharadas de almendras
 Pimienta
 Nuez moscada
 Canela
-2 puï¿½ados de kale
+2 pu?ados de kale
 Merienda Media
-100 gr de cecina o jamï¿½n
+100 gr de cecina o jam?n
 
 Cena
 ramen de ternera
@@ -281,12 +281,12 @@ Caldo de huesos
 Keto 2
 Desayuno 
 250 gr de yogur de coco
-1 cucharada de proteï¿½na
+1 cucharada de prote?na
 30 gr de almendras
 20 gr de mantequilla
 
 Merienda Media
-100 gr de cecina o jamï¿½n
+100 gr de cecina o jam?n
 
 Almuerzo
 Ensalada de pastrami
@@ -296,18 +296,18 @@ Ensalada de pastrami
 50 gr de crema de queso
 
 Merienda Media
-brï¿½coli picante
-80 gr de brï¿½coli asado
+br?coli picante
+80 gr de br?coli asado
 10 gr de chile cortados en trozos y asados
 
 Cena
 gambas con arroz de coliflor
 100 gr de coliflor
 1 cucharada de aceite de coco
-50 gr de judï¿½as verdes
+50 gr de jud?as verdes
 150 gr de gambas
 50 gr de crema de queso
-1 puï¿½ado de cacahuetes machacados
+1 pu?ado de cacahuetes machacados
 10 gr de cebollino
 
 Vegetariana 1 2500 kcal
@@ -332,7 +332,7 @@ Media merienda
 
 Cena
 60g de arroz
-100 g de espÃ¡rragos
+100 g de espárragos
 45g de cebolla
 30g de zanahoria
 
@@ -417,11 +417,11 @@ Cena
 
 Alcalina 1
 Desayuno 
-250 ml Batido verde de aguacate, limÃ³n y acelgas
+250 ml Batido verde de aguacate, limón y acelgas
 150g Tostada de pan integral con pechuga de pavo
-150 ml TÃ© verde
+150 ml Té verde
 Media
-200ml de infusiÃ³n
+200ml de infusión
 Almuerzo
 300g de pasta integral con salteado de pescado
 200ml de manzanilla
@@ -434,7 +434,7 @@ Alcalina 2
 Desayuno
 Zumo de tomate
 200g de cereales de avena con leche de almendras
-200 ml de tÃ© verde
+200 ml de té verde
 Media
 80g de fruta
 Almuerzo
@@ -444,9 +444,68 @@ Media
 300ml Batido de leche de almendras con fresas
 Cena
 400g de sopa de pollo con arroz integral y cebolla
-200g de tÃ© de tilo.
+200g de té de tilo.
 
 diet([proteica|S],S).
+% Proteica de  calorias
+
+Desayuno
+2 huevos revueltos poco aceite.
+2 tostadas
+cafe con leche sin grasa.
+
+
+Merienda medio
+Avena con leche
+1 fruta
+
+
+
+Almuerzo
+Garbanzos
+2 huevos
+200 Pollo
+50g gramos de arroz
+
+
+Merienda tarde
+emparedado de jamon
+2 rebanadas de queso
+
+
+Cena
+150 g de salmon
+verduras al vapor
+50g arroz
+
+
+
+% proteica 3000 calorias
+
+Desayuno
+Avena con leche banano y frutas.
+2 jamon.
+2 queso
+
+
+Merienda medio
+emparedado con batido de frutas
+
+Almuerzo
+150g carne de res
+150g verduras
+100g de frijoles
+
+
+Merienda tarde
+Fruta y 10 almendras
+
+
+Cena
+100g carne de cerdo
+2 huevos
+50g de lentejas
+Enasalada
 
 
 Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
