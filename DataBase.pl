@@ -2,9 +2,9 @@
 diet([hipocalorica|S],S).   % sobrepeso u obesidad  diabetes, el colesterol o la hipertensi?n arterial
 diet([hipercalorica|S],S).  % desnutricion - subir masa muscular
 diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmunes, fibromialgia, s�ndrome de fatiga cr�nica y la tan temida inflamaci�n
-
-
-
+diet([mediterranea|S],S). % enfermedades cardiovasculares, enfermedades cerebrovasculares
+diet([keto|S],S). % no diabeticos, bajar de peso
+diet([vegetariana|S],S). %
 
 
 
@@ -364,17 +364,60 @@ Cena
 20g de calabacin
 200g de papas al horno
 
+% Mediterranea de 1500 calorias
+
+Desayuno
+60 g de jamon cerrano.
+1 mandarina.
+Cafe sin azucar.
+
+Merienda medio
+100g de yogurt.
+50g de fruta fresca.
+
+Almuerzo
+200g de Espinacas con garbanzos.
+1 manzana.
+
+Merienda tarde
+100g de mecedonia.
+Cafe sin azucar.
+
+Cena
+150g de Ensalada(Tomate, lechuga y cebolla).
+50g de Sardinas.
+25g de Cuajada con miel.
 
 
+% Mediterranea 3000 calorias
 
-diet([detox|S],S).
+Desayuno
+1 tortilla francesa
+1 kiwi
+cafe o infusion
+
+Merienda medio
+2 Tostadas
+50g de Queso fresco
+25g de nueces
+
+Almuerzo
+250g de Gazpacho
+100g Pescado a la plancha
+50g de Frutos secos
+
+Merienda tarde
+150g de Taboule a la plancha
+30g de platano
+
+Cena
+150g de Verduras asadas
+100g de Pulpo a la brasa
+1 manzana con canela
+
+
 diet([proteica|S],S).
-diet([vegetariana|S],S).
-diet([paleo|S],S).
 diet([alcalina|S],S).
-diet([mediterranea|S],S). %enfermedades cardiovasculares
-diet([vegana|S],S).
-diet([keto|S],S).%no diabeticos, bajar de peso
 
 Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
 Padecimientos [Hipercolesterolemia ?aumento de los niveles considerados normales de colesterol en la sangre? ?Dieta vegana?]
