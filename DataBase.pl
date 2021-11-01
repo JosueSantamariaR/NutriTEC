@@ -5,7 +5,7 @@ diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmune
 diet([mediterranea|S],S). % enfermedades cardiovasculares, enfermedades cerebrovasculares
 diet([keto|S],S). % no diabeticos, bajar de peso
 diet([vegetariana|S],S). %
-
+diet([alcalina|S],S). %bajar de peso y regular ph
 
 
 % hipocalorica 1  a 1200 calorias
@@ -415,9 +415,39 @@ Cena
 100g de Pulpo a la brasa
 1 manzana con canela
 
+Alcalina 1
+Desayuno 
+250 ml Batido verde de aguacate, limón y acelgas
+150g Tostada de pan integral con pechuga de pavo
+150 ml Té verde
+Media
+200ml de infusión
+Almuerzo
+300g de pasta integral con salteado de pescado
+200ml de manzanilla
+Media
+200ml Zumo de naranja
+Cena
+300g Hervido de verduras con patata, cebolla y brocoli
+
+Alcalina 2
+Desayuno
+Zumo de tomate
+200g de cereales de avena con leche de almendras
+200 ml de té verde
+Media
+80g de fruta
+Almuerzo
+350g de sopa de garbanzos
+150ml de manzanilla
+Media
+300ml Batido de leche de almendras con fresas
+Cena
+400g de sopa de pollo con arroz integral y cebolla
+200g de té de tilo.
 
 diet([proteica|S],S).
-diet([alcalina|S],S).
+
 
 Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
 Padecimientos [Hipercolesterolemia ?aumento de los niveles considerados normales de colesterol en la sangre? ?Dieta vegana?]
