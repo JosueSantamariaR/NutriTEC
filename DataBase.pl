@@ -1,7 +1,7 @@
 %dietas
 diet([hipocalorica|S],S).   % sobrepeso u obesidad  diabetes, el colesterol o la hipertensi?n arterial
 diet([hipercalorica|S],S).  % desnutricion - subir masa muscular
-diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmunes, fibromialgia, síndrome de fatiga crónica y la tan temida inflamación
+diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmunes, fibromialgia, sï¿½ndrome de fatiga crï¿½nica y la tan temida inflamaciï¿½n
 
 
 
@@ -182,13 +182,13 @@ tomate natural con perejil.
 
 Almuerzo
 Alcachofas al vapor
-Batido de apio y piña
+Batido de apio y piï¿½a
 infusion te verde
 
 
 
 Merienda tarde
-zumo de naranja y piña
+zumo de naranja y piï¿½a
 
 
 
@@ -225,12 +225,12 @@ zumo de naranja.
 
 
 Merienda tarde
-papaya y piña.
+papaya y piï¿½a.
 
 Cena
 Batido detox.
 3 pepinos.
-1 piña.
+1 piï¿½a.
 semillas de sesamo.
 3 vasos de agua.
 zumo de uvas rojas.
@@ -251,22 +251,22 @@ Media cucharada de leche de almendra
 
 Merienda Media
 chips de parmesano
-1 triángulo de queso parmesano por ración
+1 triï¿½ngulo de queso parmesano por raciï¿½n
 Albahaca
 Sal
 Pimienta
 
 Almuerzo
-salmón con brócoli y kale
-1 filete de salmón
-100 gr de brócoli
+salmï¿½n con brï¿½coli y kale
+1 filete de salmï¿½n
+100 gr de brï¿½coli
 3 cucharadas de almendras
 Pimienta
 Nuez moscada
 Canela
-2 puñados de kale
+2 puï¿½ados de kale
 Merienda Media
-100 gr de cecina o jamón
+100 gr de cecina o jamï¿½n
 
 Cena
 ramen de ternera
@@ -281,12 +281,12 @@ Caldo de huesos
 Keto 2
 Desayuno 
 250 gr de yogur de coco
-1 cucharada de proteína
+1 cucharada de proteï¿½na
 30 gr de almendras
 20 gr de mantequilla
 
 Merienda Media
-100 gr de cecina o jamón
+100 gr de cecina o jamï¿½n
 
 Almuerzo
 Ensalada de pastrami
@@ -296,19 +296,73 @@ Ensalada de pastrami
 50 gr de crema de queso
 
 Merienda Media
-brócoli picante
-80 gr de brócoli asado
+brï¿½coli picante
+80 gr de brï¿½coli asado
 10 gr de chile cortados en trozos y asados
 
 Cena
 gambas con arroz de coliflor
 100 gr de coliflor
 1 cucharada de aceite de coco
-50 gr de judías verdes
+50 gr de judï¿½as verdes
 150 gr de gambas
 50 gr de crema de queso
-1 puñado de cacahuetes machacados
+1 puï¿½ado de cacahuetes machacados
 10 gr de cebollino
+
+Vegetariana 1 2500 kcal
+Desayuno
+40g tostadas integrales
+200 ml de batido de soja con cacao en polvo
+40g de fruta
+Media merienda
+40 gramos de frutos secos
+Almuerzo
+80g de arroz
+30g de hongos
+30g de cebolla
+
+3 canelones
+100 de bechamel
+200g de vegetales salteados
+
+Media merienda
+2 yogures de soja (150g)
+40g de galletas integrales
+
+Cena
+60g de arroz
+100 g de espÃ¡rragos
+45g de cebolla
+30g de zanahoria
+
+120g de tomate
+100ml de vino blanco
+70g de pan integral
+40g  de fruta
+
+Vegetariana 2 1800 kcal
+Desayuno 
+120g de yogurt de soja con miel y fruta.
+Media merienda
+40g Pan integral con mermelada
+Almuerzo
+80g de lentejas cocidas
+120g de calabacin
+25g de cebolla
+Aceite de oliva
+70g de pan integral
+80g de tomate picado
+40g de fruta
+Media merienda
+Frutos secos
+Cena
+200g de tomate con 5 nueces
+
+50g de tofu
+20g de cebolla
+20g de calabacin
+200g de papas al horno
 
 
 
