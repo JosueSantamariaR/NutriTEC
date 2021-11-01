@@ -125,46 +125,46 @@ Cena
 300 g de mandarinas.
 
 
-%hipercalorica 2 2500 calorias
+%hipercalorica 2 3500 calorias
 Desayuno
 2 yogures desnatados.
-45 g de galletas.
-2 piezas de fruta.
+100 g de galletas.
+3 piezas de fruta.
 Café con 100 ml de leche.
 
 
 Merienda medio
-45 g de galletas.
-75 g de almendras.
-50 g de zanahoria cruda.
-1 yogurt.
+100 g de galletas.
+100 g de almendras.
+100 g de zanahoria cruda.
+2 yogurt.
 Café solo o infusión
 
 
 
 Almuerzo
-60 g de arroz
-1 huevo frito
-50 g de tomate.
-125 g de pollo a la plancha
+100 g de arroz
+3 huevo frito
+150 g de tomate.
+200 g de pollo a la plancha
 150 g de verduras al horno.
-40 g de pan.
+100 g de pan.
 100 g de cerezas.
 
 
 Merienda tarde
-40 g de pan.
-60 g de jamón york.
+100 g de pan.
+100 g de jamón york.
 Café solo o infusión con 200 ml de leche.
-1 pieza de fruta pequeña.
+2 pieza de fruta pequeña.
 
 
 
 Cena
-150 g de alcachofas.
-150 g de salmón a la plancha.
+250 g de alcachofas.
+250 g de salmón a la plancha.
 150 g de puré de patatas (con 100 ml de leche).
-40 g de pan.
+100 g de pan.
 240 g de manzana.
 
 
