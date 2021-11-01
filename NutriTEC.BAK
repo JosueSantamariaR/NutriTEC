@@ -36,7 +36,17 @@ verb([habia|S],S).
 verb([quiero|S],S).
 %falta
 
-
+%dietas
+diet([hipocalorica|S],S).
+diet([hipercalorica|S],S).
+diet([detox|S],S).
+diet([proteica|S],S).
+diet([vegetariana|S],S).
+diet([paleo|S],S).
+diet([alcalina|S],S).
+diet([mediterranea|S],S).%enfermedades cardiovasculares
+diet([vegana|S],S).
+diet([keto|S],S).
 
 
 
