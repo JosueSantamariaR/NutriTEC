@@ -1,13 +1,51 @@
 %dietas
 diet([hipocalorica|S],S).   % sobrepeso u obesidad  diabetes, el colesterol o la hipertensi?n arterial
 diet([hipercalorica|S],S).  % desnutricion - subir masa muscular
-diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmunes, fibromialgia, s?ndrome de fatiga cr?nica y la tan temida inflamaci?n
+diet([detox|S],S).   % trastornos del sistema digestivo, enfermedades autoinmunes, fibromialgia, sindrome de fatiga cr?nica y la tan temida inflamaci?n
 diet([mediterranea|S],S). % enfermedades cardiovasculares, enfermedades cerebrovasculares
 diet([keto|S],S). % no diabeticos, bajar de peso
 diet([vegetariana|S],S). %
 diet([alcalina|S],S). %bajar de peso y regular ph
 
+%hipocalorica
+padecimientos([sobrepeso]).
+padecimientos([obesidad]).
+padecimientos([diabetes]).
+padecimientos([colesterol]).
+padecimientos([hipertension]).
 
+%hipercalorica.
+padecimientos([desnutricion]).
+padecimientos([cancer]).
+padecimientos([sida]).
+
+%detox
+padecimientos([fibromialgia]).
+padecimientos([fatiga]).
+padecimientos([inflamacion abdominal]).
+padecimientos([inflamacion]).
+padecimientos([enfermedada autoinmune]).
+padecimientos([transtornos sistema digestivo]).
+
+
+%mediterranea
+padecimientos([enfermedad cardiovascular]).
+padecimientos([enfermedad cerebrovascular]).
+
+
+%keto
+padecimientos([obesidad]).
+padecimientos([epilepsia infantil]).
+padecimientos([hiperlipidemia]).
+
+
+%vegetariana
+padecimientos([hipertensiÃ³n]).
+padecimientos([diabetes tipo2]).
+padecimientos([obesidad]).
+
+%alcalina
+padecimientos([ph alto]).
 % hipocalorica 1  a 1200 calorias
 % elimina grasas y azucares, no se puede cocinar fritos
 % se permite la comida hervida y a la plancha
@@ -332,7 +370,7 @@ Media merienda
 
 Cena
 60g de arroz
-100 g de espárragos
+100 g de espï¿½rragos
 45g de cebolla
 30g de zanahoria
 
@@ -364,151 +402,499 @@ Cena
 20g de calabacin
 200g de papas al horno
 
-% Mediterranea de 1500 calorias
-
-Desayuno
-60 g de jamon cerrano.
-1 mandarina.
-Cafe sin azucar.
-
-Merienda medio
-100g de yogurt.
-50g de fruta fresca.
-
-Almuerzo
-200g de Espinacas con garbanzos.
-1 manzana.
-
-Merienda tarde
-100g de mecedonia.
-Cafe sin azucar.
-
-Cena
-150g de Ensalada(Tomate, lechuga y cebolla).
-50g de Sardinas.
-25g de Cuajada con miel.
-
-
-% Mediterranea 3000 calorias
-
-Desayuno
-1 tortilla francesa
-1 kiwi
-cafe o infusion
-
-Merienda medio
-2 Tostadas
-50g de Queso fresco
-25g de nueces
-
-Almuerzo
-250g de Gazpacho
-100g Pescado a la plancha
-50g de Frutos secos
-
-Merienda tarde
-150g de Taboule a la plancha
-30g de platano
-
-Cena
-150g de Verduras asadas
-100g de Pulpo a la brasa
-1 manzana con canela
-
-Alcalina 1
-Desayuno 
-250 ml Batido verde de aguacate, limón y acelgas
-150g Tostada de pan integral con pechuga de pavo
-150 ml Té verde
-Media
-200ml de infusión
-Almuerzo
-300g de pasta integral con salteado de pescado
-200ml de manzanilla
-Media
-200ml Zumo de naranja
-Cena
-300g Hervido de verduras con patata, cebolla y brocoli
-
-Alcalina 2
-Desayuno
-Zumo de tomate
-200g de cereales de avena con leche de almendras
-200 ml de té verde
-Media
-80g de fruta
-Almuerzo
-350g de sopa de garbanzos
-150ml de manzanilla
-Media
-300ml Batido de leche de almendras con fresas
-Cena
-400g de sopa de pollo con arroz integral y cebolla
-200g de té de tilo.
-
-diet([proteica|S],S).
-% Proteica de  calorias
-
-Desayuno
-2 huevos revueltos poco aceite.
-2 tostadas
-cafe con leche sin grasa.
-
-
-Merienda medio
-Avena con leche
-1 fruta
-
-
-
-Almuerzo
-Garbanzos
-2 huevos
-200 Pollo
-50g gramos de arroz
-
-
-Merienda tarde
-emparedado de jamon
-2 rebanadas de queso
-
-
-Cena
-150 g de salmon
-verduras al vapor
-50g arroz
-
-
-
-% proteica 3000 calorias
-
-Desayuno
-Avena con leche banano y frutas.
-2 jamon.
-2 queso
-
-
-Merienda medio
-emparedado con batido de frutas
-
-Almuerzo
-150g carne de res
-150g verduras
-100g de frijoles
-
-
-Merienda tarde
-Fruta y 10 almendras
-
-
-Cena
-100g carne de cerdo
-2 huevos
-50g de lentejas
-Enasalada
-
 
 Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
 Padecimientos [Hipercolesterolemia ?aumento de los niveles considerados normales de colesterol en la sangre? ?Dieta vegana?]
 NivelesActividad [Inicial (0-2 veces)|Intermedio (3-4 veces)|Avanzado (5 ? m?s veces)]
 Dietas [NombreDieta TipoDieta Calor?as[padecimientos NO recomendados] [padecimiento recomendados] [Actividades NO recomendadas][Actividades recomendadas] [Detalle Dieta]]
+
+%Detalles de la dieta Proteica 3000kcal
+menuProte1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("Avena con leche banano y frutas."),nl,
+                nl, writeln("2 jamon."),nl,
+                nl, writeln("2 queso"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("Emparedado con batido de frutas"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("150g carne de res"),nl,
+                nl, writeln("150g verduras"),nl,
+                nl, writeln("100g de frijoles"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("Fruta y 10 almendras"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("100g carne de cerdo"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("50g de lentejas"),nl,
+                nl, writeln("Ensalada"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+
+%Detalles de la dieta Proteica
+menuProte2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("2 huevos revueltos poco aceite."),nl,
+                nl, writeln("2 tostadas"),nl,
+                nl, writeln("cafe con leche sin grasa."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("Avena con leche"),nl,
+                nl, writeln("1 fruta"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("Garbanzos"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("200g Pollo"),nl,
+                nl, writeln("50g gramos de arroz"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("Emparedado de jamon"),nl,
+                nl, writeln("2 rebanadas de queso"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de salmon"),nl,
+                nl, writeln("Verduras al vapor"),nl,
+                nl, writeln("50g arroz"),nl,
+                nl, writeln("Ensalada"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+                
+%Detalles de la dieta Alcalina
+menuAlca1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("Zumo de tomate"),nl,
+                nl, writeln("200g de cereales de avena con leche de almendras"),nl,
+                nl, writeln("200 ml de te verde"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("80g de fruta"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("350g de sopa de garbanzos"),nl,
+                nl, writeln("150ml de manzanilla"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("300ml Batido de leche de almendras con fresas"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("400g de sopa de pollo con arroz integral y cebolla"),nl,
+                nl, writeln("200ml de te de tilo."),nl,
+               
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+
+%Detalles de la dieta Alcalina
+menuProte2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("250 ml Batido verde de aguacate, limÃ³n y acelgas"),nl,
+                nl, writeln("150g Tostada de pan integral con pechuga de pavo"),nl,
+                nl, writeln("150 ml TÃ© verde"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("200ml de infusiÃ³n"),nl,
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("300g de pasta integral con salteado de pescado"),nl,
+                nl, writeln("200ml de manzanilla"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("200ml Zumo de naranja"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("300g Hervido de verduras con patata, cebolla y brocoli"),nl,      
+                
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+               
+%Detalles de la dieta Mediterranea 3000kcal
+menuMedi1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("1 tortilla francesa"),nl,
+                nl, writeln("1 kiwi"),nl,
+                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("2 Tostadas"),nl,
+                nl, writeln("50g de Queso fresco"),nl
+                nl, writeln("25g de nueces"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("250g de Gazpacho"),nl,
+                nl, writeln("100g Pescado a la plancha"),nl,
+                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("150g de Taboule a la plancha"),nl,
+                nl, writeln("30g de platano"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Verduras asadas"),nl,
+                nl, writeln("100g de Pulpo a la brasa"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Mediterranea 1500kcal
+menuMedi2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("60 g de jamon cerrano."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("1 mandarina."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de yogurt."),nl,
+                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("200g de Espinacas con garbanzos."),nl,
+                nl, writeln("1 manzana."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de mecedonia."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Ensalada(Tomate, lechuga y cebolla)."),nl,
+                nl, writeln("50g de Sardinas."),nl,
+                nl, writeln("25g de Cuajada con miel."),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Vegetariana 1800kcal
+menuVege1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("1 tortilla francesa"),nl,
+                nl, writeln("1 kiwi"),nl,
+                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("2 Tostadas"),nl,
+                nl, writeln("50g de Queso fresco"),nl
+                nl, writeln("25g de nueces"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("250g de Gazpacho"),nl,
+                nl, writeln("100g Pescado a la plancha"),nl,
+                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("150g de Taboule a la plancha"),nl,
+                nl, writeln("30g de platano"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Verduras asadas"),nl,
+                nl, writeln("100g de Pulpo a la brasa"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Vegetariana 2500kcal
+menuVege2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("60 g de jamon cerrano."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("1 mandarina."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de yogurt."),nl,
+                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("200g de Espinacas con garbanzos."),nl,
+                nl, writeln("1 manzana."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de mecedonia."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Ensalada(Tomate, lechuga y cebolla)."),nl,
+                nl, writeln("50g de Sardinas."),nl,
+                nl, writeln("25g de Cuajada con miel."),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("1 tortilla francesa"),nl,
+                nl, writeln("1 kiwi"),nl,
+                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("2 Tostadas"),nl,
+                nl, writeln("50g de Queso fresco"),nl
+                nl, writeln("25g de nueces"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("250g de Gazpacho"),nl,
+                nl, writeln("100g Pescado a la plancha"),nl,
+                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("150g de Taboule a la plancha"),nl,
+                nl, writeln("30g de platano"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Verduras asadas"),nl,
+                nl, writeln("100g de Pulpo a la brasa"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Keto kcal
+menuKeto2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("60 g de jamon cerrano."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("1 mandarina."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de yogurt."),nl,
+                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("200g de Espinacas con garbanzos."),n
+                nl, writeln("1 manzana."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de mecedonia."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Ensalada(Tomate, lechuga y c
+                nl, writeln("50g de Sardinas."),nl,
+                nl, writeln("25g de Cuajada con miel."),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+
+%Detalles de la dieta Detox 1400kcal
+menuDeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("1 tortilla francesa"),nl,
+                nl, writeln("1 kiwi"),nl,
+                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("2 Tostadas"),nl,
+                nl, writeln("50g de Queso fresco"),nl
+                nl, writeln("25g de nueces"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("250g de Gazpacho"),nl,
+                nl, writeln("100g Pescado a la plancha"),nl,
+                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("150g de Taboule a la plancha"),nl,
+                nl, writeln("30g de platano"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Verduras asadas"),nl,
+                nl, writeln("100g de Pulpo a la brasa"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Detox 1600kcal
+menuDeto2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("60 g de jamon cerrano."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("1 mandarina."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de yogurt."),nl,
+                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("200g de Espinacas con garbanzos."),n
+                nl, writeln("1 manzana."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de mecedonia."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Ensalada(Tomate, lechuga y c
+                nl, writeln("50g de Sardinas."),nl,
+                nl, writeln("25g de Cuajada con miel."),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Hipercalorica 1800kcal
+menuHiper1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("1 tortilla francesa"),nl,
+                nl, writeln("1 kiwi"),nl,
+                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("2 Tostadas"),nl,
+                nl, writeln("50g de Queso fresco"),nl
+                nl, writeln("25g de nueces"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("250g de Gazpacho"),nl,
+                nl, writeln("100g Pescado a la plancha"),nl,
+                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("150g de Taboule a la plancha"),nl,
+                nl, writeln("30g de platano"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Verduras asadas"),nl,
+                nl, writeln("100g de Pulpo a la brasa"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Hipercalorica 2500kcal
+menuHiper2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("60 g de jamon cerrano."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("1 mandarina."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de yogurt."),nl,
+                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("200g de Espinacas con garbanzos."),n
+                nl, writeln("1 manzana."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de mecedonia."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Ensalada(Tomate, lechuga y c
+                nl, writeln("50g de Sardinas."),nl,
+                nl, writeln("25g de Cuajada con miel."),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Hipocalorica 1800kcal
+menuHipo1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("1 tortilla francesa"),nl,
+                nl, writeln("1 kiwi"),nl,
+                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("2 Tostadas"),nl,
+                nl, writeln("50g de Queso fresco"),nl
+                nl, writeln("25g de nueces"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("250g de Gazpacho"),nl,
+                nl, writeln("100g Pescado a la plancha"),nl,
+                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("150g de Taboule a la plancha"),nl,
+                nl, writeln("30g de platano"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Verduras asadas"),nl,
+                nl, writeln("100g de Pulpo a la brasa"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Hipocalorica 2500kcal
+menuHipo2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("60 g de jamon cerrano."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("1 mandarina."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de yogurt."),nl,
+                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("200g de Espinacas con garbanzos."),n
+                nl, writeln("1 manzana."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100g de mecedonia."),nl,
+                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150g de Ensalada(Tomate, lechuga y c
+                nl, writeln("50g de Sardinas."),nl,
+                nl, writeln("25g de Cuajada con miel."),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
