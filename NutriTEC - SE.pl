@@ -57,6 +57,7 @@ checkerStart([H|T], X):- listStart(L),
 %Busca las palabras dentro de nuestra deficnicón de elementos que inician la conversación.
 listStart(L) :- findall(X, (start([X|_])), L).
 
+
 comparePadecimientos([],X):- nl, writeln('No se encuentra el padecimiento'),
               writeln('Intente de nuevo'),nl,
               input_to_list(Oracion),
@@ -67,11 +68,7 @@ comparePadecimientos([H|_], X):- listaTipoDePadecimientos(L),
 comparePadecimientos([H|T], X):- listaTipoDePadecimientos(L),
                             \+miembro(H,L),
                             comparePadecimientos(T,X).
-listaTipoDePadecimientos(L) :- findall(X, (diet([_,_,_,_,_,X,_,_,_,_])) , L).
-
-
-
-
+listaTipoDePadecimientos(L) :- findall(X, (diet([_,_,_,_,_,[X|_],_,_,_])) , L).
 
 
 compareCalorias([],X):- nl, writeln('No hay dietas con este tipo de calorias'),
@@ -85,7 +82,7 @@ compareCalorias([H|T], X):- listaCalorias(L),
                       \+miembro(H,L),
                       compareCalorias(T,X).
 
-listaCalorias(L) :- findall(X, (diet([_,_,X,_,_,_,_,_,_,_])) , L).
+listaCalorias(L) :- findall(X, (diet([_,_,X,_,_,_,_,_,_])) , L).
 
 
 
@@ -103,7 +100,7 @@ compareActividad([H|T], X):- listaActividad(L),
                         \+miembro(H,L),
                         compareActividad(T,X).
 
-listaActividad(L) :- findall(X, (diet([_,_,_,_,_,_,X,_,_,_])) , L).
+listaActividad(L) :- findall(X, (diet([_,_,_,_,_,_,X,_,_s])) , L).
 
 
 
@@ -120,8 +117,6 @@ compareFrecuencia([H|T], X):- listaFrecuencia(L),
                         compareFrecuencia(T,X).
 
 listaFrecuencia(L) :- findall(X, (diet([_,_,_,X,_,_,_,_,_,_])) , L).
-
-
 
 
 
@@ -145,6 +140,7 @@ ingresarDatos(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,
 	nl, writeln('¿Tienes alguna enfermedad por la que ha iniciado este proceso?'),
 	input_to_list(Oracion1),%Se ingresa lo introducido por el usuario a una lista para compararlo.
 	validacion_gramatical(Oracion1), %Se valida que la oración sea gramaticalmente correcta.
+	nl,writeln(Oracion1),
 	comparePadecimientos(Oracion1, PadTemp), %Llama a la función para buscar los padecimientos relacionados.
 	Padecimientos = PadTemp,
 
