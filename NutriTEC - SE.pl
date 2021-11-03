@@ -100,7 +100,7 @@ compareActividad([H|T], X):- listaActividad(L),
                         \+miembro(H,L),
                         compareActividad(T,X).
 
-listaActividad(L) :- findall(X, (diet([_,_,_,_,_,_,X,_,_s])) , L).
+listaActividad(L) :- findall(X, (diet([_,_,_,_,_,_,_,X,_])) , L).
 
 
 
@@ -116,7 +116,7 @@ compareFrecuencia([H|T], X):- listaFrecuencia(L),
                         \+miembro(H,L),
                         compareFrecuencia(T,X).
 
-listaFrecuencia(L) :- findall(X, (diet([_,_,_,X,_,_,_,_,_,_])) , L).
+listaFrecuencia(L) :- findall(X, (diet([_,_,_,X,_,_,_,_,_])) , L).
 
 
 
@@ -131,10 +131,16 @@ compareTipoDieta([H|T], X):- listaTipoDieta(L),
                         \+miembro(H,L),
                         compareTipoDieta(T,X).
 
-listaTipoDieta(L) :- findall(X, (diet([_,X,_,_,_,_,_,_,_,_])) , L).
+listaTipoDieta(L) :- findall(X, (diet([_,X,_,_,_,_,_,_,_])) , L).
 
 %Función de ingreso y lectura de los datos que introduce el usuario.
 ingresarDatos(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,MenuDieta):-
+	sleep(0.5), write('Hola encantado de que verlo mejorar su estilo de vida. Cuenteme ¿en que lo 
+	puedo ayudar?'),nl,
+	sleep(0.5),
+	input_to_list(OracionX),
+	nl, writeln('Excelente iniciativa. Estamos para asesorarte en todo lo que necesites.'),
+	sleep(0.5),
 
 	% Se busca la enfermedad
 	nl, writeln('¿Tienes alguna enfermedad por la que ha iniciado este proceso?'),
@@ -146,15 +152,15 @@ ingresarDatos(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,
 
 
 	% Se buscan las calorias
-	nl, write('¿Tienes pensado una cantidad específica de calorías diarias por consumir?'), nl,
+	nl, write('¿Tienes pensado una cantidad especifica de calorias diarias por consumir?'), nl,
 	input_to_list(Oracion2),
 	validacion_gramatical(Oracion2),
-	compareKcal(Oracion2, KcalTemp), %Llama a la función para comparar con respecto a las calorías de las dietas.
+	compareCalorias(Oracion2, KcalTemp), %Llama a la función para comparar con respecto a las calorías de las dietas.
 	Calorias = KcalTemp,
 
 
 	% Se busca tipo actividad fisica
-	nl, writeln('¿Practicas algún deporte?'),
+	nl, writeln('¿Practicas algun deporte?'),
 	input_to_list(Oracion3),
 	validacion_gramatical(Oracion3),
 	compareActividad(Oracion3, ActividadTemp), %Llama a la función para comparar con respecto a las actividades que realiza.
@@ -162,15 +168,16 @@ ingresarDatos(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,
 
 
 	% Se busca frecuencia actividad fisica
-	nl, writeln('¿Eres activo físicamente?'),
+	nl, writeln('¿Eres activo fisicamente?'),
+	nl, writeln('Inicial | Intermedio | Avanzado'),nl,
 	input_to_list(Oracion4),
-	validacion_gramatical(Oracion4),
+	%validacion_gramatical(Oracion4),
 	compareFrecuencia(Oracion4, FrecuenciaTemp), %Llama a la función para comparar con respecto a la frecuencia de su actividad.
 	Frecuencia = FrecuenciaTemp,
 
 
 	% Se busca el tipo de dieta
-	nl, write('¿Tienes un tipo de dieta te gustaría realizar?'), nl,
+	nl, write('¿Tienes un tipo de dieta te gustaria realizar?'), nl,
 	input_to_list(Oracion5),
 	validacion_gramatical(Oracion5),
 	compareTipoDieta(Oracion5, TipoDietaTemp), %Llama a la función para buscar el tipo de dietas según lo obtenido.

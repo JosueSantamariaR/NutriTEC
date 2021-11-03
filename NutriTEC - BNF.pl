@@ -48,6 +48,8 @@ verb([diagnosticado|S],S).
 verb([habia|S],S).
 verb([realizar|S],S).
 verb([quiero|S],S).
+verb([hago|S],S).
+verb([realizo|S],S).
 
 
 verb([me,gustaria|S],S).
@@ -64,6 +66,8 @@ verb(['Diagnosticado'|S],S).
 verb(['Habia'|S],S).
 verb(['Realizar'|S],S).
 verb(['Quiero'|S],S).
+verb(['Hago'|S],S).
+verb(['Realizo'|S],S).
 
 verb(['Me','gustan'|S],S).
 verb(['Me','diagnosticaron'|S],S).
