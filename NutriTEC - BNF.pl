@@ -2,7 +2,7 @@
 
 :-style_check(-singleton).
 
-% nicio de la conversación
+% inicio de la conversación
 start([hola|S],S).
 start([iniciar|S],S).
 start([buenas,tardes|S],S).
@@ -92,7 +92,7 @@ sintagma_nominal(A,B):-
 
 % Recibe una lista de palabras y una lista vacía; elimina el primer sintagma verbal encontrado
 sintagma_verbal(A,B):-
-	verbo(A,B).
+	verb(A,B).
 
 % Valida si la oración digitada por el usuario está gramaticalmente correcta según el BNF establecido
 

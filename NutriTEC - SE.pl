@@ -91,9 +91,7 @@ listStart(L) :- findall(X, (start([X|_])), L).
 % Nombre de Hecho	:	inicio()
 % Parámetro			:	-
 % Salida            :   -
-inicio(input_to_list(Oracion),
-validacion_gramatical(Oracion),
-checkerStart(Oracion, start)).
-    
-   
-    
+inicio():-
+    input_to_list(Oracion),
+    %validacion_gramatical(Oracion),
+    checkerStart(Oracion, start).

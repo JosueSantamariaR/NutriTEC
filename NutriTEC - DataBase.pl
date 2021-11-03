@@ -5,38 +5,38 @@
 
 
 %Dietas proteicas
-diet([proteica1,proteica,'2000 kcal',[diabetes,fatiga],[sobrepeso,obesidad],[fondos,ciclismo],[levantamiento de pesas,yoga],menuProte1]).
-diet([proteica2,proteica,'2500 kcal',[diabetes,fatiga],[sobrepeso,obesidad],[fondos,ciclismo],[levantamiento de pesas,correr],menuProte2]).
+diet(['proteica1',proteica,'2000 kcal',[diabetes,fatiga],[sobrepeso,obesidad],['fondos','ciclismo'],['levantamiento de pesas','yoga'],menuProte1]).
+diet(['proteica2',proteica,'2500 kcal',[diabetes,fatiga],[sobrepeso,obesidad],['fondos','ciclismo'],['levantamiento de pesas','correr'],menuProte2]).
 
 %Dietas alcalinas
-diet([alcalina1,alcalina,'1800 kcal',[ph alto],[ph bajo],[levantamiento de pesas,crossfit],[caminatas,salto de cuerda],menuAlca1]).
-diet([alcalina2,alcalina,'1500 kcal',[ph alto],[ph bajo],[levantamiento de pesas,crossfit],[caminatas,salto de cuerda],menuAlca2]).
+diet(['alcalina1',alcalina,'1800 kcal',[ph alto],[ph bajo],['levantamiento de pesas','crossfit'],['caminatas','salto de cuerda'],menuAlca1]).
+diet(['alcalina2',alcalina,'1500 kcal',[ph alto],[ph bajo],['levantamiento de pesas','crossfit'],['caminatas','salto de cuerda'],menuAlca2]).
 
 %Dietas Mediterranea
-diet([mediterranea1,mediterranea,'3000 kcal',[desnutricion],[enfermedad cardiovascular,enfermedad cerebrovascular],[natacion],[fondos, ciclismo],menuMedi1]).
-diet([mediterranea2,mediterranea,'1500 kcal',[desnutricion],[enfermedad cardiovascular,enfermedad cerebrovascular],[natacion],[saltar la cuerda],menuMedi2]).
+diet(['mediterranea1',mediterranea,'3000 kcal',[desnutricion],[enfermedad cardiovascular,enfermedad cerebrovascular],['natacion'],['fondos', 'ciclismo'],menuMedi1]).
+diet(['mediterranea2',mediterranea,'1500 kcal',[desnutricion],[enfermedad cardiovascular,enfermedad cerebrovascular],['natacion'],['saltar la cuerda'],menuMedi2]).
 
 %Dietas Vegetarianas
-diet([vegetariana1,vegetariana,'1800 kcal',[fatiga],[hipertension,colesterol],[futbol],[caminata],menuVege1]).
-diet([vegetariana2,vegetariana,'2500 kcal',[fatiga],[hipertension,colesterol],[futbol],[caminata,correr],menuVege2]).
+diet(['vegetariana1',vegetariana,'1800 kcal',[fatiga],[hipertension,colesterol],['futbol'],['caminata'],menuVege1]).
+diet(['vegetariana2',vegetariana,'2500 kcal',[fatiga],[hipertension,colesterol],['futbol'],['caminata','correr'],menuVege2]).
 
 %Dietas Keto
-diet([keto1,keto,'1800 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes tipo2,epilepsia infantil],[triatlon,hit,fondos],[caminata,salto de cuerda],menuKeto1]).
-diet([keto2,keto,'1400 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes tipo2,epilepsia infantil],[triatlon,hit,fondos],[caminata,salto de cuerda],menuKeto2]).
+diet(['keto1',keto,'1800 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes tipo2,epilepsia infantil],['triatlon','hit','fondos'],['caminata','salto de cuerda'],menuKeto1]).
+diet(['keto2',keto,'1400 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes tipo2,epilepsia infantil],['triatlon','hit','fondos'],['caminata','salto de cuerda'],menuKeto2]).
 
 
 %Dietas Detox
 
-diet([detox1,detox,'1400 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad autoinmune,transtornos sistema digestivo],[ciclismo,crossfit,powerlifting],[yoga,caminata],menuDetox1]).
-diet([detox2,detox,'1600 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad autoinmune,transtornos sistema digestivo],[ciclismo,crossfit,powerlifting],[yoga,caminata],menuDetox2]).
+diet(['detox1',detox,'1400 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad autoinmune,transtornos sistema digestivo],['ciclismo','crossfit','powerlifting'],['yoga','caminata'],menuDetox1]).
+diet(['detox2',detox,'1600 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad autoinmune,transtornos sistema digestivo],['ciclismo','crossfit','powerlifting'],['yoga','caminata'],menuDetox2]).
 
 %Dieta Hipercalorica.
-diet([hipercalorica1,hipercalorica,'2500 kcal',[obesidad],[desnutricion,cancer,sida],[powerlifting],[fondos,triatlon],menuHiper1]).
-diet([hipercalorica2,hipercalorica,'3500 kcal',[obesidad],[desnutricion,cancer,sida],[powerlifting],[fondos,triatlon],menuHiper2]).
+diet(['hipercalorica1',hipercalorica,'2500 kcal',[obesidad],[desnutricion,cancer,sida],['powerlifting'],['fondos','triatlon'],menuHiper1]).
+diet(['hipercalorica2',hipercalorica,'3500 kcal',[obesidad],[desnutricion,cancer,sida],['powerlifting'],['fondos','triatlon'],menuHiper2]).
 
 %Dieta Hipocalorica.
-diet([hipocalorica1,hipocalorica,'1200 kcal',[desnutricion],[sobrepeso,obesidad,diabetes,hipertension,colesterol],[ciclismo,fondos,triatlon],[caminar,yoga],menuHipo1]).
-diet([hipocalorica2,hipocalorica,'1500 kcal',[desnutricion],[sobrepeso,obesidad,diabetes,hipertension,colesterol],[ciclismo,fondos,triatlon],[caminar,yoga],menuHipo2]).
+diet(['hipocalorica1',hipocalorica,'1200 kcal',[desnutricion],[sobrepeso,obesidad,diabetes,hipertension,colesterol],['ciclismo','fondos','triatlon'],['caminar','yoga'],menuHipo1]).
+diet(['hipocalorica2',hipocalorica,'1500 kcal',[desnutricion],[sobrepeso,obesidad,diabetes,hipertension,colesterol],['ciclismo','fondos','triatlon'],['caminar','yoga'],menuHipo2]).
 
 %dietas
 dietType([proteica]).
