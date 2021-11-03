@@ -24,27 +24,27 @@ padecimientos([sida]).
 %detox
 padecimientos([fibromialgia]).
 padecimientos([fatiga]).
-padecimientos([inflamacion abdominal]).
+padecimientos([inflamacion,abdominal]).
 padecimientos([inflamacion]).
-padecimientos([enfermedada autoinmune]).
-padecimientos([transtornos sistema digestivo]).
+padecimientos([enfermedada,autoinmune]).
+padecimientos([transtornos,sistema digestivo]).
 
 %mediterranea
-padecimientos([enfermedad cardiovascular]).
-padecimientos([enfermedad cerebrovascular]).
+padecimientos([enfermedad,cardiovascular]).
+padecimientos([enfermedad,cerebrovascular]).
 
 %keto
 padecimientos([obesidad]).
-padecimientos([epilepsia infantil]).
+padecimientos([epilepsia,infantil]).
 padecimientos([hiperlipidemia]).
 
 %vegetariana
 padecimientos([hipertensión]).
-padecimientos([diabetes tipo2]).
+padecimientos([diabetes,tipo2]).
 padecimientos([obesidad]).
 
 %alcalina
-padecimientos([ph alto])
+padecimientos([ph,alto])
 
 %Ejemplo
 %Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
