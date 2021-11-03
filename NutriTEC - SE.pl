@@ -58,8 +58,40 @@ string_to_list_of_atoms(X,L):-
 miembro(X,[X|_]).
 miembro(X,[_|T]):-miembro(X,T).
 
+%******************************************************************************
+%******************************************************************************
+%******************************************************************************
+
+
+% Descripción		:	Se busca la palabra de inicio
+% Nombre de Hecho	:	compareInicio([], X)
+% Parámetro			:	lista, resultado
+% Salida            :   nombre de la comida 
+checkerStart([],X):- input_to_list(Oracion),
+					  checkerStart(Oracion,X).
+checkerStart([H|_], X):- listStart(L),
+						  miembro(H,L), 
+						  X = H, !.
+checkerStart([H|T], X):- listaComidas(L),
+	                      \+miembro(H,L),
+	                      compareInicio(T,X).
+
+% Descripción		:	Se obtiene la lista de comidas disponibles
+% Nombre de Hecho	:	listStart(L)
+% Parámetro			:	resultado
+% Salida            :   lista de comidas disponibles
+listStart(L) :- findall(X, (start([X|_])), L).
 
 
 %******************************************************************************
 %******************************************************************************
 %******************************************************************************
+
+% Descripción		:	Regla principal que ejecuta el programa.
+% Nombre de Hecho	:	inicio()
+% Parámetro			:	-
+% Salida            :   -
+inicio():-
+    input_to_list(Oracion),
+    validacion_gramatical(Oracion),
+    checkerStart(Oracion, Iniciar).
