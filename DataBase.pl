@@ -7,6 +7,7 @@ diet([keto|S],S). % no diabeticos, bajar de peso
 diet([vegetariana|S],S). %
 diet([alcalina|S],S). %bajar de peso y regular ph
 
+%Padecimientos de las dietas
 %hipocalorica
 padecimientos([sobrepeso]).
 padecimientos([obesidad]).
@@ -27,17 +28,14 @@ padecimientos([inflamacion]).
 padecimientos([enfermedada autoinmune]).
 padecimientos([transtornos sistema digestivo]).
 
-
 %mediterranea
 padecimientos([enfermedad cardiovascular]).
 padecimientos([enfermedad cerebrovascular]).
-
 
 %keto
 padecimientos([obesidad]).
 padecimientos([epilepsia infantil]).
 padecimientos([hiperlipidemia]).
-
 
 %vegetariana
 padecimientos([hipertensión]).
@@ -45,18 +43,15 @@ padecimientos([diabetes tipo2]).
 padecimientos([obesidad]).
 
 %alcalina
-padecimientos([ph alto]).
+padecimientos([ph alto])
 
-% hipocalorica 1  a 1200 calorias
-% elimina grasas y azucares, no se puede cocinar fritos
-% se permite la comida hervida y a la plancha
+%Ejemplo
+%Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
+%Padecimientos [Hipercolesterolemia ?aumento de los niveles considerados normales de colesterol en la sangre? ?Dieta vegana?]
+%NivelesActividad [Inicial (0-2 veces)|Intermedio (3-4 veces)|Avanzado (5 o mas veces)]
+%Dietas [NombreDieta TipoDieta Calorias [padecimientos NO recomendados] [padecimiento recomendados] [Actividades NO recomendadas][Actividades recomendadas] [Detalle Dieta]]
 
-
-Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
-Padecimientos [Hipercolesterolemia ?aumento de los niveles considerados normales de colesterol en la sangre? ?Dieta vegana?]
-NivelesActividad [Inicial (0-2 veces)|Intermedio (3-4 veces)|Avanzado (5 ? m?s veces)]
-Dietas [NombreDieta TipoDieta Calor?as[padecimientos NO recomendados] [padecimiento recomendados] [Actividades NO recomendadas][Actividades recomendadas] [Detalle Dieta]]
-
+%Menu de cada dieta, que se muestra en el detalle.
 %Detalles de la dieta Proteica 3000kcal
 menuProte1():-nl, writeln("Desayuno"),nl,
                 nl, writeln("Avena con leche banano y frutas."),nl,
