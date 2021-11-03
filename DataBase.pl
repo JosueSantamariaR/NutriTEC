@@ -46,361 +46,10 @@ padecimientos([obesidad]).
 
 %alcalina
 padecimientos([ph alto]).
+
 % hipocalorica 1  a 1200 calorias
 % elimina grasas y azucares, no se puede cocinar fritos
 % se permite la comida hervida y a la plancha
-Desayuno
-1 vaso de leche desnatada.
-40 g de cereales.
-Cafe solo o infusion
-
-Merienda medio
-20 g de pan.
-60 g de jam?n york.
-Cafe o infusion
-
-Almuerzo
-150 g de coliflor hervida.
-75 g de pollo asado.
-100 g de patatas.
-20 g de pan.
-200 g de pinia natural.
-
-Merienda tarde
-20 g de pan
-50 g de queso.
-Cafe o infusion.
-
-Cena
-15 g de pasta
-50 g de puerros
-25 g de zanahorias.
-110 g de pescado
-75 g de lechuga
-75 g de tomate.
-20 g de pan.
-100 g de cerezas.
-
-
-
-% hipocalorica 2  a 1500 calorias
-
-Desayuno
-2 yogures desnatados.
-50 g de galletas.
-Cafe o infusion.
-
-Merienda medio
-50 g de biscotes.
-100 g de queso fresco.
-Cafe o infusion.
-
-Almuerzo
-150 g de verduras.
-100 g de albondigas.
-50 g de arroz.
-50 g de pan.
-200 g de fresas.
-
-Merienda tarde
-25 g de galletas.
-Cafe con 100 ml de leche desnatada.
-
-Cena
-150 g de lechuga
-150 g de tomate.
-100 g de patatas
-3 huevo
-200 g de naranja.
-
-
-
-
-%hipercalorica 2500 calorias
-Desayuno
-200 ml de leche.
-60 g de cereales integrales.
-1 yogurt.
-2 piezas de fruta.
-Cafe solo o infusion.
-
-
-Merienda medio
-60 g de pan.
-90 g de jam?n york.
-150 g de tomate.
-Cafe o infusion con 100 ml de leche.
-
-
-Almuerzo
-300 g de coliflor hervida
-15 g de jamon serrano en tacos.
-150 g de pollo asado.
-150 g de patatas.
-60 g de pan.
-400 g de melon.
-
-
-Merienda tarde
-30 g de cereales de desayuno
-75 g de nueces
-160 g de manzana
-200 ml de leche.
-Cafe solo o infusion.
-
-
-Cena
-300 g de verduras
-50 g de guisantes
-35 g de requeson.
-150 g de sardinas a la plancha.
-150 g de esparragos
-100 g de patatas cocidas.
-40 g de pan.
-300 g de mandarinas.
-
-
-%hipercalorica 2 3500 calorias
-Desayuno
-2 yogures desnatados.
-100 g de galletas.
-3 piezas de fruta.
-Cafe con 100 ml de leche.
-
-
-Merienda medio
-100 g de galletas.
-100 g de almendras.
-100 g de zanahoria cruda.
-2 yogurt.
-Cafe solo o infusion
-
-
-
-Almuerzo
-100 g de arroz
-3 huevo frito
-150 g de tomate.
-200 g de pollo a la plancha
-150 g de verduras al horno.
-100 g de pan.
-100 g de cerezas.
-
-
-Merienda tarde
-100 g de pan.
-100 g de jamon york.
-Cafe solo o infusion con 200 ml de leche.
-2 pieza de fruta peq.
-
-
-
-Cena
-250 g de alcachofas.
-250 g de salmon a la plancha.
-150 g de pure de patatas (con 100 ml de leche).
-100 g de pan.
-240 g de manzana.
-
-
-
-%detox 1 1400 calorias
-
-Desayuno
-Te verde.
-Avena con leche de soja.
-Arandanos.
-
-
-
-
-Merienda medio
-tomate natural con perejil.
-
-
-Almuerzo
-Alcachofas al vapor
-Batido de apio y pi?a
-infusion te verde
-
-
-
-Merienda tarde
-zumo de naranja y pi?a
-
-
-
-
-Cena
-Batido detox.
-1 apio.
-1 tomate.
-1 pepino.
-1L de agua.
-zumo de arandano .
-
-
-
-%detox 2 1600 calorias
-Desayuno
-Te verde.
-30g de pan con tomate y aceite de oliva
-Arandanos.
-
-
-
-Merienda medio
-te verde.
-10 almendras.
-
-
-Almuerzo
-Ensalada de espinacas con ajo.
-semillas de mostaza al vapor.
-merluza a la plancha .
-zumo de naranja.
-
-
-
-Merienda tarde
-papaya y pi?a.
-
-Cena
-Batido detox.
-3 pepinos.
-1 pi?a.
-semillas de sesamo.
-3 vasos de agua.
-zumo de uvas rojas.
-
-
-Keto 1
-Desayuno
-tortitas
-2 huevos
-2 cucharadas de aceite de oliva
-2 cucharadas de jarabe de arce
-Esencia de vainilla
-Sal del himalaya
-1 cucharada de levadura en polvo
-120 gr. de harina
-Media cucharada de leche de almendra
-2 cucharadas de mantequilla
-
-Merienda Media
-chips de parmesano
-1 tri?ngulo de queso parmesano por raci?n
-Albahaca
-Sal
-Pimienta
-
-Almuerzo
-salm?n con br?coli y kale
-1 filete de salm?n
-100 gr de br?coli
-3 cucharadas de almendras
-Pimienta
-Nuez moscada
-Canela
-2 pu?ados de kale
-Merienda Media
-100 gr de cecina o jam?n
-
-Cena
-ramen de ternera
-150 gr de ternera
-60 gr de col pak choi
-2 unidades de citronela
-Medio pimiento rojo
-30 gr de nueces
-50 gr de kale
-Caldo de huesos
-
-Keto 2
-Desayuno 
-250 gr de yogur de coco
-1 cucharada de prote?na
-30 gr de almendras
-20 gr de mantequilla
-
-Merienda Media
-100 gr de cecina o jam?n
-
-Almuerzo
-Ensalada de pastrami
-80 gr de pastrami
-80 gr de espinacas
-60 gr de kimchi
-50 gr de crema de queso
-
-Merienda Media
-br?coli picante
-80 gr de br?coli asado
-10 gr de chile cortados en trozos y asados
-
-Cena
-gambas con arroz de coliflor
-100 gr de coliflor
-1 cucharada de aceite de coco
-50 gr de jud?as verdes
-150 gr de gambas
-50 gr de crema de queso
-1 pu?ado de cacahuetes machacados
-10 gr de cebollino
-
-Vegetariana 1 2500 kcal
-Desayuno
-40g tostadas integrales
-200 ml de batido de soja con cacao en polvo
-40g de fruta
-Media merienda
-40 gramos de frutos secos
-Almuerzo
-80g de arroz
-30g de hongos
-30g de cebolla
-
-3 canelones
-100 de bechamel
-200g de vegetales salteados
-
-Media merienda
-2 yogures de soja (150g)
-40g de galletas integrales
-
-Cena
-60g de arroz
-100 g de esp�rragos
-45g de cebolla
-30g de zanahoria
-
-120g de tomate
-100ml de vino blanco
-70g de pan integral
-40g  de fruta
-
-Vegetariana 2 1800 kcal
-Desayuno 
-120g de yogurt de soja con miel y fruta.
-Media merienda
-40g Pan integral con mermelada
-Almuerzo
-80g de lentejas cocidas
-120g de calabacin
-25g de cebolla
-Aceite de oliva
-70g de pan integral
-80g de tomate picado
-40g de fruta
-Media merienda
-Frutos secos
-Cena
-200g de tomate con 5 nueces
-
-50g de tofu
-20g de cebolla
-20g de calabacin
-200g de papas al horno
 
 
 Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
@@ -590,97 +239,1626 @@ menuMedi2():-nl, writeln("Desayuno"),nl,
 
 %Detalles de la dieta Vegetariana 1800kcal
 menuVege1():-nl, writeln("Desayuno"),nl,
-                nl, writeln("1 tortilla francesa"),nl,
-                nl, writeln("1 kiwi"),nl,
-                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("120g de yogurt de soja con miel y fruta."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("2 Tostadas"),nl,
-                nl, writeln("50g de Queso fresco"),nl
-                nl, writeln("25g de nueces"),nl
+                nl, writeln("40g Pan integral con mermelada"),nl,        
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("250g de Gazpacho"),nl,
-                nl, writeln("100g Pescado a la plancha"),nl,
-                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("80g de lentejas cocidas"),nl,
+                nl, writeln("120g de calabacin"),nl,
+                nl, writeln("25g de cebolla"),nl,
+                nl, writeln("Aceite de oliva"),nl,
+                nl, writeln("70g de pan integral"),nl,
+                nl, writeln("80g de tomate picado"),nl,
+                nl, writeln("40g de fruta"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("150g de Taboule a la plancha"),nl,
-                nl, writeln("30g de platano"),nl,
+                nl, writeln("Frutos secos"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Verduras asadas"),nl,
-                nl, writeln("100g de Pulpo a la brasa"),nl,
-                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("200g de tomate con 5 nueces"),nl,
+                nl, writeln("50g de tofu"),nl,
+                nl, writeln("20g de cebolla"),nl,
+                nl, writeln("20g de calabacin"),nl,
+                nl, writeln("200g de papas al horno"),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
 
 %Detalles de la dieta Vegetariana 2500kcal
 menuVege2():-nl, writeln("Desayuno"),nl,
-                nl, writeln("60 g de jamon cerrano."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
-                nl, writeln("1 mandarina."),nl,
+                nl, writeln("40g tostadas integrales"),nl,
+                nl, writeln("200 ml de batido de soja con cacao en polvo"),nl,
+                nl, writeln("40g de fruta"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de yogurt."),nl,
-                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("40 gramos de frutos secos"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("200g de Espinacas con garbanzos."),nl,
-                nl, writeln("1 manzana."),nl,
+                nl, writeln("80g de arroz"),nl,
+                nl, writeln("30g de hongos"),nl,
+                nl, writeln("30g de cebolla"),nl,
+                nl, writeln("3 canelones"),nl,
+                nl, writeln("100 de bechamel"),nl,
+                nl, writeln("200g de vegetales salteados"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de mecedonia."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("2 yogures de soja (150g)"),nl,
+                nl, writeln("40g de galletas integrales"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Ensalada(Tomate, lechuga y cebolla)."),nl,
-                nl, writeln("50g de Sardinas."),nl,
-                nl, writeln("25g de Cuajada con miel."),nl,
+                nl, writeln("60g de arroz"),nl,
+                nl, writeln("100 g de espárragos"),nl,
+                nl, writeln("45g de cebolla"),nl,
+                nl, writeln("30g de zanahoria"),nl,
+                nl, writeln("120g de tomate"),nl,
+                nl, writeln("100ml de vino blanco"),nl,
+                nl, writeln("70g de pan integral"),nl,
+                nl, writeln("40g  de fruta"),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
 
 %Detalles de la dieta keto kcal
 menuKeto1():-nl, writeln("Desayuno"),nl,
-                nl, writeln("1 tortilla francesa"),nl,
-                nl, writeln("1 kiwi"),nl,
-                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("2 Tostadas"),nl,
-                nl, writeln("50g de Queso fresco"),nl
-                nl, writeln("25g de nueces"),nl
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("250g de Gazpacho"),nl,
-                nl, writeln("100g Pescado a la plancha"),nl,
-                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("150g de Taboule a la plancha"),nl,
-                nl, writeln("30g de platano"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Verduras asadas"),nl,
-                nl, writeln("100g de Pulpo a la brasa"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
                 nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
+%Hacer keto2222
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta keto kcal
+menuKeto1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("tortitas"),nl,
+                nl, writeln("2 huevos"),nl,
+                nl, writeln("2 cucharadas de aceite de oliva"),nl,
+                nl, writeln("2 cucharadas de jarabe de arce"),nl,
+                nl, writeln("Esencia de vainilla"),nl,
+                nl, writeln("1 cucharada de levadura en polvo"),nl,
+                nl, writeln("120 gr. de harina"),nl,
+                nl, writeln("leche de almendra"),nl,
+                nl, writeln("2 cucharadas de mantequilla"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("chips de parmesano"),nl,
+                nl, writeln("50g queso parmesano "),nl
+                nl, writeln("Albahaca"),nl
+                nl, writeln("Sal"),nl
+                nl, writeln("Pimienta"),nl
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("1 filete de salmon"),nl,
+                nl, writeln("100 gr de brocoli"),nl,
+                nl, writeln("3 cucharadas de almendras"),nl,
+                nl, writeln("Pimienta"),nl,
+                nl, writeln("nuez moscada"),nl,
+                nl, writeln("Canela"),nl,
+                nl, writeln("20g de kale"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 gr de cecina o jamon"),nl,
+
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("150 gr de ternera"),nl,
+                nl, writeln("60 gr de col pak choi"),nl,
+                nl, writeln("2 unidades de citronela"),nl,
+                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Medio pimiento rojo"),nl,
+                nl, writeln("50 gr de kale"),nl,
+                nl, writeln("Caldo de huesos"),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
 
 %Detalles de la dieta Keto kcal
 menuKeto2():-nl, writeln("Desayuno"),nl,
@@ -715,186 +1893,221 @@ menuKeto2():-nl, writeln("Desayuno"),nl,
 
 %Detalles de la dieta Detox 1400kcal
 menuDeto1():-nl, writeln("Desayuno"),nl,
-                nl, writeln("1 tortilla francesa"),nl,
-                nl, writeln("1 kiwi"),nl,
-                nl, writeln("cafe o infusion"),nl,
+                nl, writeln("Té verde."),nl,
+                nl, writeln("Avena con leche de soja."),nl,
+                nl, writeln("Arandanos."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("2 Tostadas"),nl,
-                nl, writeln("50g de Queso fresco"),nl
-                nl, writeln("25g de nueces"),nl
+                nl, writeln("Tomate natural con perejil."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("250g de Gazpacho"),nl,
-                nl, writeln("100g Pescado a la plancha"),nl,
-                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("Alcachofas al vapor"),nl,
+                nl, writeln("Batido de apio y piña"),nl,
+                nl, writeln("infusion te verde"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("150g de Taboule a la plancha"),nl,
-                nl, writeln("30g de platano"),nl,
+                nl, writeln("Zumo de naranja y piña"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Verduras asadas"),nl,
-                nl, writeln("100g de Pulpo a la brasa"),nl,
-                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Batido detox(apio,tamte,pepino,zumo de arandano"),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
 
 %Detalles de la dieta Detox 1600kcal
 menuDeto2():-nl, writeln("Desayuno"),nl,
-                nl, writeln("60 g de jamon cerrano."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
-                nl, writeln("1 mandarina."),nl,
+                nl, writeln("Té verde."),nl,
+                nl, writeln("30g de pan con tomate y aceite de oliva"),nl,
+                nl, writeln("Arandanos."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de yogurt."),nl,
-                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("Té verde."),nl,
+                nl, writeln("10 almendras."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("200g de Espinacas con garbanzos."),n
-                nl, writeln("1 manzana."),nl,
+                nl, writeln("Ensalada de espinacas con ajo."),n
+                nl, writeln("Semillas de mostaza al vapor."),nl,
+                nl, writeln("Merluza a la plancha"),nl,
+                nl, writeln("Zumo de naranja."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de mecedonia."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("Batido de papaya y piña"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Ensalada(Tomate, lechuga y c
-                nl, writeln("50g de Sardinas."),nl,
-                nl, writeln("25g de Cuajada con miel."),nl,
-
-                nl, writeln("****************"),nl,
-                nl, writeln("Que lo disfrute"),nl,!.
-
-%Detalles de la dieta Hipercalorica 1800kcal
-menuHiper1():-nl, writeln("Desayuno"),nl,
-                nl, writeln("1 tortilla francesa"),nl,
-                nl, writeln("1 kiwi"),nl,
-                nl, writeln("cafe o infusion"),nl,
-                nl, writeln("****************"),nl,
-
-                nl, writeln("Merienda"),nl,
-                nl, writeln("2 Tostadas"),nl,
-                nl, writeln("50g de Queso fresco"),nl
-                nl, writeln("25g de nueces"),nl
-                nl, writeln("****************"),nl,
-
-                nl, writeln("Almuerzo"),nl,
-                nl, writeln("250g de Gazpacho"),nl,
-                nl, writeln("100g Pescado a la plancha"),nl,
-                nl, writeln("50g de Frutos secos"),nl,
-                nl, writeln("****************"),nl,
-
-                nl, writeln("Merienda"),nl,
-                nl, writeln("150g de Taboule a la plancha"),nl,
-                nl, writeln("30g de platano"),nl,
-                nl, writeln("****************"),nl,
-
-                nl, writeln("Cena"),nl,
-                nl, writeln("150g de Verduras asadas"),nl,
-                nl, writeln("100g de Pulpo a la brasa"),nl,
-                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("Batido detox(pepino, piña,semillas de sesamo,uvas)"),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
 
 %Detalles de la dieta Hipercalorica 2500kcal
-menuHiper2():-nl, writeln("Desayuno"),nl,
-                nl, writeln("60 g de jamon cerrano."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
-                nl, writeln("1 mandarina."),nl,
+menuHiper1():-nl, writeln("Desayuno"),nl,
+                nl, writeln("200 ml de leche"),nl,
+                nl, writeln("60 g de cereales integrales."),nl,
+                nl, writeln("1 yogurt."),nl,
+                nl, writeln("2 piezas de fruta."),nl,
+                nl, writeln("Cafe solo o infusion."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de yogurt."),nl,
-                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("60 g de pan."),nl,
+                nl, writeln("90 g de jamón york."),nl
+                nl, writeln("150 g de tomate."),nl
+                nl, writeln("Cafe o infusion con 100 ml de leche."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("200g de Espinacas con garbanzos."),n
-                nl, writeln("1 manzana."),nl,
+                nl, writeln("300 g de coliflor hervida"),nl,
+                nl, writeln("15 g de jamon serrano en tacos."),nl,
+                nl, writeln("150 g de pollo asado."),nl,
+                nl, writeln("150 g de patatas."),nl,
+                nl, writeln("60 g de pan."),nl,
+                nl, writeln("400 g de melon."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de mecedonia."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("30 g de cereales de desayuno"),nl,
+                nl, writeln("75 g de nueces"),nl,
+                nl, writeln("160 g de manzana"),nl,
+                nl, writeln("200 ml de leche."),nl,
+                nl, writeln("Cafe solo o infusion."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Ensalada(Tomate, lechuga y c
-                nl, writeln("50g de Sardinas."),nl,
-                nl, writeln("25g de Cuajada con miel."),nl,
+                nl, writeln("300 g de verduras"),nl,
+                nl, writeln("50 g de guisantes"),nl,
+                nl, writeln("35 g de requeson."),nl,
+                nl, writeln("150 g de sardinas a la plancha."),nl,
+                nl, writeln("150 g de esparragos"),nl,
+                nl, writeln("100 g de patatas cocidas."),nl,
+                nl, writeln("40 g de pan."),nl,
+                nl, writeln("300 g de mandarinas."),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
 
-%Detalles de la dieta Hipocalorica 1800kcal
+%Detalles de la dieta Hipercalorica 3500kcal
+menuHiper2():-nl, writeln("Desayuno"),nl,
+                nl, writeln("2 yogures desnatados."),nl,
+                nl, writeln("100 g de galletas."),nl,
+                nl, writeln("3 piezas de fruta."),nl,
+                nl, writeln("Cafe con 100 ml de leche."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 g de galletas."),nl,
+                nl, writeln("100 g de almendras."),nl,
+                nl, writeln("100 g de zanahoria cruda."),nl,
+                nl, writeln("2 yogurt."),nl,
+                nl, writeln("Cafe solo o infusion"),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Almuerzo"),nl,
+                nl, writeln("100 g de arroz"),n
+                nl, writeln("3 huevo frito"),nl,
+                nl, writeln("150 g de tomate."),nl,
+                nl, writeln("200 g de pollo a la plancha"),nl,
+                nl, writeln("100 g de pan."),nl,
+                nl, writeln("150 g de verduras al horno."),nl,
+                nl, writeln("100 g de cerezas."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Merienda"),nl,
+                nl, writeln("100 g de pan."),nl,
+                nl, writeln("100 g de jamon york."),nl,
+                nl, writeln("Cafe solo o infusion con 200 ml de leche."),nl,
+                nl, writeln("2 pieza de fruta peq."),nl,
+                nl, writeln("****************"),nl,
+
+                nl, writeln("Cena"),nl,
+                nl, writeln("250 g de alcachofas."),nl,
+                nl, writeln("250 g de salmon a la plancha."),nl,
+                nl, writeln("150 g de pure de patatas (con 100 ml de leche)."),nl,
+                nl, writeln("100 g de pan."),nl,
+                nl, writeln("240 g de manzana."),nl,
+
+                nl, writeln("****************"),nl,
+                nl, writeln("Que lo disfrute"),nl,!.
+
+%Detalles de la dieta Hipocalorica 1200kcal
 menuHipo1():-nl, writeln("Desayuno"),nl,
-                nl, writeln("1 tortilla francesa"),nl,
-                nl, writeln("1 kiwi"),nl,
+                nl, writeln("1 vaso de leche desnatada."),nl,
+                nl, writeln("40 g de cereales."),nl,
                 nl, writeln("cafe o infusion"),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("2 Tostadas"),nl,
-                nl, writeln("50g de Queso fresco"),nl
-                nl, writeln("25g de nueces"),nl
+                nl, writeln("20 g de pan."),nl,
+                nl, writeln("60 g de jamón york."),nl
+                nl, writeln("Cafe o infusion"),nl
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("250g de Gazpacho"),nl,
-                nl, writeln("100g Pescado a la plancha"),nl,
-                nl, writeln("50g de Frutos secos"),nl,
+                nl, writeln("150 g de coliflor hervida."),nl,
+                nl, writeln("75 g de pollo asado."),nl,
+                nl, writeln("100 g de patatas."),nl,
+                nl, writeln("20 g de pan."),nl,
+                nl, writeln("200 g de pinia natural."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("150g de Taboule a la plancha"),nl,
-                nl, writeln("30g de platano"),nl,
+                nl, writeln("20 g de pan"),nl,
+                nl, writeln("50 g de queso."),nl,
+                nl, writeln("Cafe o infusion."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Verduras asadas"),nl,
-                nl, writeln("100g de Pulpo a la brasa"),nl,
-                nl, writeln("1 manzana con canela"),nl,
+                nl, writeln("15 g de pasta"),nl,
+                nl, writeln("50 g de puerros"),nl,
+                nl, writeln("25 g de zanahorias."),nl,
+                nl, writeln("110 g de pescado"),nl,
+                nl, writeln("75 g de lechuga"),nl,
+                nl, writeln("75 g de tomate."),nl,
+                nl, writeln("20 g de pan."),nl,
+                nl, writeln("50 g de cerezas."),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
 
-%Detalles de la dieta Hipocalorica 2500kcal
+%Detalles de la dieta Hipocalorica 1500kcal
 menuHipo2():-nl, writeln("Desayuno"),nl,
-                nl, writeln("60 g de jamon cerrano."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
-                nl, writeln("1 mandarina."),nl,
+                nl, writeln("2 yogures desnatados."),nl,
+                nl, writeln("50 g de galletas."),nl,
+                nl, writeln("Cafe o infusion."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de yogurt."),nl,
-                nl, writeln("50g de fruta fresca."),nl,
+                nl, writeln("50 g de biscotes."),nl,
+                nl, writeln("100 g de queso fresco."),nl,
+                nl, writeln("Cafe o infusion."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Almuerzo"),nl,
-                nl, writeln("200g de Espinacas con garbanzos."),n
-                nl, writeln("1 manzana."),nl,
+                nl, writeln("150 g de verduras."),n
+                nl, writeln("100 g de albondigas."),nl,
+                nl, writeln("50 g de arroz."),nl,
+                nl, writeln("50 g de pan."),nl,
+                nl, writeln("200 g de fresas."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Merienda"),nl,
-                nl, writeln("100g de mecedonia."),nl,
-                nl, writeln("Cafe sin azucar."),nl,
+                nl, writeln("25 g de galletas."),nl,
+                nl, writeln("Cafe con 100 ml de leche desnatada."),nl,
                 nl, writeln("****************"),nl,
 
                 nl, writeln("Cena"),nl,
-                nl, writeln("150g de Ensalada(Tomate, lechuga y c
-                nl, writeln("50g de Sardinas."),nl,
-                nl, writeln("25g de Cuajada con miel."),nl,
+                nl, writeln("150 g de lechuga"),nl,
+                nl, writeln("150 g de tomate."),nl,
+                nl, writeln("100 g de patatas"),nl,
+                nl, writeln("200 g de naranja."),nl,
+                nl, writeln("3 huevos"),nl,
 
                 nl, writeln("****************"),nl,
                 nl, writeln("Que lo disfrute"),nl,!.
