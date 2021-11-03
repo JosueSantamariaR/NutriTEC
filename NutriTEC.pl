@@ -1,8 +1,8 @@
-% Palabras clave de usuario
+%Palabras clave de usuario
 
 :-style_check(-singleton).
 
-% Inicio de la conversación
+% nicio de la conversación
 start([hola|S],S).
 start([iniciar|S],S).
 start([buenas,tardes|S],S).
@@ -10,13 +10,13 @@ start([buenos,dias|S],S).
 start([buenas,noches|S],S).
 start([hola,nutritec|S],S).
 
-% Finalizar la conversación
+%Finalizar la conversación
 final([gracias|S],S).
 final([muchas,gracias|S],S).
 final([chao|S],S).
 final([adios|S],S).
 
-% Respuestas negativas
+%Respuestas negativas
 negative([no|S],S).
 negative(['No'|S],S).
 negative([nunca|S],S).
@@ -27,7 +27,7 @@ negative([nada|S],S).
 negative(['Nada'|S],S).
 
 
-% Respuestas positivas
+%Respuestas positivas
 positive([si|S],S).
 positive([claro|S],S).
 
