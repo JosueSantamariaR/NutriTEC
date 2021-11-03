@@ -3,18 +3,17 @@
 :-style_check(-singleton).
 
 % inicio de la conversación
-start([hola|S],S).
-start([iniciar|S],S).
-start([buenas,tardes|S],S).
-start([buenos,dias|S],S).
-start([buenas,noches|S],S).
-start([hola,nutritec|S],S).
+start([hola]).
+start([iniciar]).
+start([buenas]).
+start([buenos]).
+start([nutritec]).
 
 %Finalizar la conversación
-final([gracias|S],S).
-final([muchas,gracias|S],S).
-final([chao|S],S).
-final([adios|S],S).
+final([gracias]).
+final([muchas,gracias]).
+final([chao]).
+final([adios]).
 
 %Respuestas negativas
 negative([no|S],S).
@@ -105,15 +104,4 @@ validacion_gramatical(Oracion):-
 	writeln('Escriba de nuevo su oracion'),nl,
 	input_to_list(Oracion2),
 	validacion_gramatical(Oracion2).
-
-
-
-
-
-
-
-
-
-
-
 
