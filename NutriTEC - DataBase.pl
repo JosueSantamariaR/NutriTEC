@@ -9,26 +9,26 @@ diet(['proteica1',proteica,'2000 kcal',[diabetes,fatiga],[sobrepeso,obesidad],['
 diet(['proteica2',proteica,'2500 kcal',[diabetes,fatiga],[sobrepeso,obesidad],['fondos','ciclismo'],['levantamiento de pesas','correr'],menuProte2]).
 
 %Dietas alcalinas
-diet(['alcalina1',alcalina,'1800 kcal',[ph alto],[ph bajo],['levantamiento de pesas','crossfit'],['caminatas','salto de cuerda'],menuAlca1]).
-diet(['alcalina2',alcalina,'1500 kcal',[ph alto],[ph bajo],['levantamiento de pesas','crossfit'],['caminatas','salto de cuerda'],menuAlca2]).
+diet(['alcalina1',alcalina,'1800 kcal',[ph,alto],[ph,bajo],['levantamiento de pesas','crossfit'],['caminatas','salto de cuerda'],menuAlca1]).
+diet(['alcalina2',alcalina,'1500 kcal',[ph,alto],[ph,bajo],['levantamiento de pesas','crossfit'],['caminatas','salto de cuerda'],menuAlca2]).
 
 %Dietas Mediterranea
-diet(['mediterranea1',mediterranea,'3000 kcal',[desnutricion],[enfermedad cardiovascular,enfermedad cerebrovascular],['natacion'],['fondos', 'ciclismo'],menuMedi1]).
-diet(['mediterranea2',mediterranea,'1500 kcal',[desnutricion],[enfermedad cardiovascular,enfermedad cerebrovascular],['natacion'],['saltar la cuerda'],menuMedi2]).
+diet(['mediterranea1',mediterranea,'3000 kcal',[desnutricion],[enfermedad,cardiovascular],['natacion'],['fondos', 'ciclismo'],menuMedi1]).
+diet(['mediterranea2',mediterranea,'1500 kcal',[desnutricion],[enfermedad,cardiovascular],['natacion'],['saltar la cuerda'],menuMedi2]).
 
 %Dietas Vegetarianas
 diet(['vegetariana1',vegetariana,'1800 kcal',[fatiga],[hipertension,colesterol],['futbol'],['caminata'],menuVege1]).
 diet(['vegetariana2',vegetariana,'2500 kcal',[fatiga],[hipertension,colesterol],['futbol'],['caminata','correr'],menuVege2]).
 
 %Dietas Keto
-diet(['keto1',keto,'1800 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes tipo2,epilepsia infantil],['triatlon','hit','fondos'],['caminata','salto de cuerda'],menuKeto1]).
-diet(['keto2',keto,'1400 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes tipo2,epilepsia infantil],['triatlon','hit','fondos'],['caminata','salto de cuerda'],menuKeto2]).
+diet(['keto1',keto,'1800 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes,tipo2,epilepsia,infantil],['triatlon','hit','fondos'],['caminata','salto de cuerda'],menuKeto1]).
+diet(['keto2',keto,'1400 kcal',[diabetes,desnutricion,hiperlipidemia],[hipertension,diabetes,tipo2,epilepsia,infantil],['triatlon','hit','fondos'],['caminata','salto de cuerda'],menuKeto2]).
 
 
 %Dietas Detox
 
-diet(['detox1',detox,'1400 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad autoinmune,transtornos sistema digestivo],['ciclismo','crossfit','powerlifting'],['yoga','caminata'],menuDetox1]).
-diet(['detox2',detox,'1600 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad autoinmune,transtornos sistema digestivo],['ciclismo','crossfit','powerlifting'],['yoga','caminata'],menuDetox2]).
+diet(['detox1',detox,'1400 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad,autoinmune,transtornos,sistema,digestivo],['ciclismo','crossfit','powerlifting'],['yoga','caminata'],menuDetox1]).
+diet(['detox2',detox,'1600 kcal',[diabetes],[fibromialgia,fatiga,inflamacion,enfermedad,autoinmune,transtornos,sistema,digestivo],['ciclismo','crossfit','powerlifting'],['yoga','caminata'],menuDetox2]).
 
 %Dieta Hipercalorica.
 diet(['hipercalorica1',hipercalorica,'2500 kcal',[obesidad],[desnutricion,cancer,sida],['powerlifting'],['fondos','triatlon'],menuHiper1]).
@@ -65,26 +65,25 @@ padecimientos([sida]).                  %si
 padecimientos([fibromialgia]).          %si
 padecimientos([fatiga]).                %si
 padecimientos([inflamacion]).           %si
-padecimientos([enfermedad autoinmune]). %si
-padecimientos([transtornos sistema digestivo]).  %si
+padecimientos([enfermedad,autoinmune]). %si
+padecimientos([transtornos,sistema,digestivo]).  %si
 
 %mediterranea
 padecimientos([enfermedad,cardiovascular]).     %si
-padecimientos([enfermedad,cerebrovascular]).    %si
 
 %keto
 padecimientos([obesidad]).              %si
-padecimientos([epilepsia infantil]).    %si
+padecimientos([epilepsia,infantil]).    %si
 padecimientos([hiperlipidemia]).       %si
 
 %vegetariana
 padecimientos([hipertension]).       %si
-padecimientos([diabetes tipo2]).     %si
+padecimientos([diabetes,tipo2]).     %si
 padecimientos([obesidad]).           %si
 
 %alcalina
-padecimientos([ph alto]).        %si
-padecimientos([ph bajo]).        %si
+padecimientos([ph,alto]).        %si
+padecimientos([ph,bajo]).        %si
 
 %Ejemplo
 %Padecimientos [[Dislipidemia?Problemas del control del colesterol? ?Dieta baja en grasas?]
