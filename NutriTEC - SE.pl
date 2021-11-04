@@ -44,18 +44,18 @@ miembro(X,[_|T]):-miembro(X,T).
 
 %Función de Busqueda de palabras de inicio.
 %Realiza una busqueda de las posibles palabras con las que se puede iniciar 
-checkerStart([]):- input_to_list(Oracion1),
+compareInicio([]):- input_to_list(Oracion1),
 	checkerStart(Oracion1).
-checkerStart([H|_]):- listStart(L),
+compareInicio([H|_]):- listaInicio(L),
 	miembro(H,L), 
 	ingresarDatos(NombreDieta, Padecimientos, Calorias, Actividad, Frecuencia, TipoDieta, MenuDieta), !.
-checkerStart([H|T], X):- listStart(L),
+compareInicio([H|T], X):- listaInicio(L),
 	\+miembro(H,L),
 	compareInicio(T,X).
 
 
 %Busca las palabras dentro de nuestra deficnicón de elementos que inician la conversación.
-listStart(L) :- findall(X, (start([X|_])), L).
+listaInicio(L) :- findall(X, (start([X|_])), L).
 
 
 comparePadecimientos([],X):- nl, writeln('No se encuentra el padecimiento'),
@@ -249,4 +249,4 @@ buscarNuevamente():- nl, writeln('--> Desea buscar nuevamente? (Debe responder c
 %Función principal para la ejecución del programa.
 inicio():-
 	input_to_list(Oracion),
-	checkerStart(Oracion).
+	compareInicio(Oracion).
