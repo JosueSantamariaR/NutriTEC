@@ -3,58 +3,58 @@
 % La conforma la siguiente estructura:
 % diet[NombreDieta,TipoDieta,Calorías,[padecimientos NO recomendados], [padecimiento recomendados], [Actividades NO recomendadas],[Actividades recomendadas], [Detalle Dieta]]
 %Dietas proteicas
-diet(['proteica1',proteica,'2000','intermedio',[diabetes],[obesidad],'ciclismo','levantamiento de pesas',menuProte1]).
-diet(['proteica2',proteica,'2500','intermedio',[diabetes],[obesidad],'ciclismo','levantamiento de pesas',menuProte2]).
+diet(['proteica1',proteica,'2000',intermedio,[diabetes],[obesidad],ciclismo,pesas,menuProte1]).
+diet(['proteica2',proteica,'2500',intermedio,[diabetes],[obesidad],ciclismo,pesas,menuProte2]).
 
 %Dietas alcalinas
-diet(['alcalina1',alcalina,'1800','inicial',[phalto],[phbajo],'levantamiento de pesas','cardio',menuAlca1]).
-diet(['alcalina2',alcalina,'1500','inicial',[phalto],[phbajo],'levantamiento de pesas','cardio',menuAlca2]).
+diet(['alcalina1',alcalina,'1800',inicial,[phalto],[phbajo],pesas,cardio,menuAlca1]).
+diet(['alcalina2',alcalina,'1500',inicial,[phalto],[phbajo],pesas,cardio,menuAlca2]).
 
 %Dietas Mediterranea
-diet(['mediterranea1',mediterranea,'3000','avanzado',[desnutricion],[enfermedad,cardiovascular],'natacion','fondos',menuMedi1]).
-diet(['mediterranea2',mediterranea,'1500','inicial',[desnutricion],[enfermedad,cardiovascular],'natacion','fondos',menuMedi2]).
+diet(['mediterranea1',mediterranea,'3000',avanzado,[desnutricion],[enfermedad,cardiovascular],natacion,fondos,menuMedi1]).
+diet(['mediterranea2',mediterranea,'1500',inicial,[desnutricion],[enfermedad,cardiovascular],natacion,fondos,menuMedi2]).
 
 %Dietas Vegetarianas
-diet(['vegetariana1',vegetariana,'1800','inicial',[fatiga],[colesterol],'futbol','correr',menuVege1]).
-diet(['vegetariana2',vegetariana,'2500','intermedio',[fatiga],[colesterol],'futbol','correr',menuVege2]).
+diet(['vegetariana1',vegetariana,'1800',inicial,[fatiga],[colesterol],futbol,correr,menuVege1]).
+diet(['vegetariana2',vegetariana,'2500',intermedio,[fatiga],[colesterol],futbol,correr,menuVege2]).
 
 %Dietas Keto
-diet(['keto1',keto,'1800','inicial',[hiperlipidemia],[hipertension],'hit','salto de cuerda',menuKeto1]).
-diet(['keto2',keto,'1400','inicial',[hiperlipidemia],[hipertension],'hit','salto de cuerda',menuKeto2]).
+diet(['keto1',keto,'1800',inicial,[hiperlipidemia],[hipertension],hit,suiza,menuKeto1]).
+diet(['keto2',keto,'1400',inicial,[hiperlipidemia],[hipertension],hit,suiza,menuKeto2]).
 
 
 %Dietas Detox
 
-diet(['detox1',detox,'1400','inicial',[diabetes],[fibromialgia],'crossfit','caminata',menuDetox1]).
-diet(['detox2',detox,'1600','inicial',[diabetes],[fibromialgia],'crossfit','caminata',menuDetox2]).
+diet(['detox1',detox,'1400',inicial,[diabetes],[fibromialgia],crossfit,caminata,menuDetox1]).
+diet(['detox2',detox,'1600',inicial,[diabetes],[fibromialgia],crossfit,caminata,menuDetox2]).
 
 %Dieta Hipercalorica.
-diet(['hipercalorica1',hipercalorica,'2500','intermedio',[obesidad],[desnutricion],'powerlifting','triatlon',menuHiper1]).
-diet(['hipercalorica2',hipercalorica,'3500','avanzado',[obesidad],[desnutricion],'powerlifting','triatlon',menuHiper2]).
+diet(['hipercalorica1',hipercalorica,'2500',intermedio,[obesidad],[desnutricion],powerlifting,triatlon,menuHiper1]).
+diet(['hipercalorica2',hipercalorica,'3500',avanzado,[obesidad],[desnutricion],powerlifting,triatlon,menuHiper2]).
 
 %Dieta Hipocalorica.
-diet(['hipocalorica1',hipocalorica,'1200',inicial,[desnutricion],[sobrepeso],'triatlon','yoga',menuHipo1]).
-diet(['hipocalorica2',hipocalorica,'1500',inicial,[desnutricion],[sobrepeso],'triatlon','yoga',menuHipo2]).
+diet(['hipocalorica1',hipocalorica,'1200',inicial,[desnutricion],[sobrepeso],triatlon,yoga,menuHipo1]).
+diet(['hipocalorica2',hipocalorica,'1500',inicial,[desnutricion],[sobrepeso],triatlon,yoga,menuHipo2]).
 
 %frecuencia
 frecuencia([inicial]).
 frecuencia([intermedio]).
 frecuencia([avanzado]).
 
-actividades('yoga').
-actividades('triatlon').
-actividades('powerlifting').
-actividades('caminata').
-actividades('crossfit').
-actividades('hit').
-actividades('salto de cuerda').
-actividades('futbol').
-actividades('correr').
-actividades('natacion').
-actividades('fondos').
-actividades('cardio').
-actividades('levantamiento de pesas').
-actividades('ciclismo').
+actividades([yoga]).
+actividades([triatlon]).
+actividades([powerlifting]).
+actividades([caminata]).
+actividades([crossfit]).
+actividades([hit]).
+actividades([suiza]).
+actividades([futbol]).
+actividades([correr]).
+actividades([natacion]).
+actividades([fondos]).
+actividades([cardio]).
+actividades([pesas]).
+actividades([ciclismo]).
 
 
 
@@ -125,7 +125,8 @@ padecimientos([phbajo]).        %si
 
 
 %Detalles de la dieta Proteica 2000kcal (Enfocada en el consumo de proteina y pocos )
-menuProte1(nl, writeln('Desayuno'), nl, 
+menuProte1():-
+nl, writeln('Desayuno'), nl, 
  writeln('Avena con leche banano y frutas.'), nl,
  writeln('2 jamon.'), nl,
  writeln('2 queso'), nl,
@@ -147,10 +148,11 @@ menuProte1(nl, writeln('Desayuno'), nl,
  writeln('50g de lentejas'), nl,
  writeln('Ensalada'), nl,
  writeln('****************'), nl,
- writeln('Que lo disfrute'), nl).
+ writeln('Que lo disfrute'), nl.
                                                                                                                                                                                                                                                                                                                      
 %Detalles de la dieta Proteica 2500.
-menuProte2(nl, writeln('Desayuno'), nl,
+menuProte2():-
+nl, writeln('Desayuno'), nl,
  writeln('2 huevos revueltos poco aceite.'),nl,
  writeln('4 tostadas'),nl,
  writeln('cafe con leche sin grasa.'),nl,
@@ -175,11 +177,12 @@ menuProte2(nl, writeln('Desayuno'), nl,
  writeln('200g arroz'),nl,
  writeln('Ensalada'),nl,
  writeln('****************'),nl,
- writeln('Que lo disfrute'),nl). 
+ writeln('Que lo disfrute'),nl. 
                                                                                                            
                 
 %Detalles de la dieta Alcalina 1800kcal
-menuAlca1(nl, writeln('Desayuno'),nl,
+menuAlca1():-
+  nl, writeln('Desayuno'),nl,
   writeln('Zumo de tomate'),nl,
   writeln('200g de cereales de avena con leche de almendras'),nl,
   writeln('200 ml de te verde'),nl,
@@ -198,10 +201,11 @@ menuAlca1(nl, writeln('Desayuno'),nl,
   writeln('400g de sopa de pollo con arroz integral y cebolla'),nl,
   writeln('200ml de te de tilo.'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
                                                                                                                                                                                                                                                                           
 %Detalles de la dieta Alcalina 1500kcal
-menuAlca2(nl, writeln('Desayuno'),nl,
+menuAlca2():-
+  nl, writeln('Desayuno'),nl,
  writeln('250 ml Batido verde de aguacate, limón y acelgas'),nl,
  writeln('150g Tostada de pan integral con pechuga de pavo'),nl,
  writeln('150 ml Té verde'),nl,
@@ -218,10 +222,11 @@ menuAlca2(nl, writeln('Desayuno'),nl,
  writeln('Cena'),nl,
  writeln('300g Hervido de verduras con patata, cebolla y brocoli'),nl,     
  writeln('****************'),nl,
- writeln('Que lo disfrute'),nl). 
+ writeln('Que lo disfrute'),nl. 
                                          
 %Detalles de la dieta Mediterranea 3000kcal
-menuMedi1(nl, writeln('Desayuno'),nl,
+menuMedi1():-
+  nl, writeln('Desayuno'),nl,
   writeln('1 tortilla francesa'),nl,
   writeln('1 kiwi'),nl,
   writeln('cafe o infusion'),nl,
@@ -245,11 +250,12 @@ menuMedi1(nl, writeln('Desayuno'),nl,
   writeln('100g de Pulpo a la brasa'),nl,
   writeln('1 manzana con canela'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
                  
 
 %Detalles de la dieta Mediterranea 1500kcal
-menuMedi2(nl, writeln('Desayuno'),nl,
+menuMedi2():-
+nl, writeln('Desayuno'),nl,
   writeln('60 g de jamon cerrano.'),nl,
   writeln('Cafe sin azucar.'),nl,
   writeln('1 mandarina.'),nl,
@@ -271,10 +277,11 @@ menuMedi2(nl, writeln('Desayuno'),nl,
   writeln('50g de Sardinas.'),nl,
   writeln('25g de Cuajada con miel.'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
 
 %Detalles de la dieta Vegetariana 1800kcal
-menuVege1(nl, writeln('Desayuno'),nl,
+menuVege1():-
+nl, writeln('Desayuno'),nl,
   writeln('120g de yogurt de soja con miel y fruta.'),nl,
   writeln('****************'),nl,
   writeln('Merienda'),nl,
@@ -299,10 +306,11 @@ menuVege1(nl, writeln('Desayuno'),nl,
   writeln('20g de calabacin'),nl,
   writeln('200g de papas al horno'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
     
 %Detalles de la dieta Vegetariana 2500kcal
-menuVege2(nl, writeln('Desayuno'),nl,
+menuVege2():-
+  nl, writeln('Desayuno'),nl,
   writeln('40g tostadas integrales'),nl,
   writeln('200 ml de batido de soja con cacao en polvo'),nl,
   writeln('40g de fruta'),nl,
@@ -332,10 +340,11 @@ menuVege2(nl, writeln('Desayuno'),nl,
   writeln('70g de pan integral'),nl,
   writeln('40g  de fruta'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
 
 %Detalles de la dieta keto 1800kcal
-menuKeto1(nl, writeln('Desayuno'),nl,
+menuKeto1():-
+  nl, writeln('Desayuno'),nl,
   writeln('Tortitas'),nl,
   writeln('2 huevos'),nl,
   writeln('2 cucharadas de aceite de oliva'),nl,
@@ -374,11 +383,12 @@ menuKeto1(nl, writeln('Desayuno'),nl,
   writeln('50g de kale'),nl,
   writeln('Caldo de huesos'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
     
     
 %Detalles de la dieta keto 1400kcal
-menuKeto2(nl, writeln('Desayuno'),nl,
+menuKeto2():-
+  nl, writeln('Desayuno'),nl,
   writeln('250 gr de yogur de coco'),nl,
   writeln('1 cucharada de proteína'),nl,
   writeln('30g de almendras'),nl,
@@ -406,11 +416,12 @@ menuKeto2(nl, writeln('Desayuno'),nl,
   writeln('1 puñado de cacahuetes machacados'),nl,
   writeln('10g de cebollino'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
                                                                                                                                                                                                                                                                                                                                                 
 
 %Detalles de la dieta Detox 1400kcal
-menuDetox1(nl, writeln('Desayuno'),nl,
+menuDetox1():-
+  nl, writeln('Desayuno'),nl,
   writeln('Té verde.'),nl,
   writeln('Avena con leche de soja.'),nl,
   writeln('Arandanos.'),nl,
@@ -429,10 +440,11 @@ menuDetox1(nl, writeln('Desayuno'),nl,
   writeln('Cena'),nl,
   writeln('Batido detox(apio,tamte,pepino,zumo de arandano'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl). 
+  writeln('Que lo disfrute'),nl. 
 
 %Detalles de la dieta Detox 1600kcal
-menuDetox2(nl, writeln('Desayuno'),nl,
+menuDetox2():-
+  nl, writeln('Desayuno'),nl,
   writeln('Té verde.'),nl,
   writeln('30g de pan con tomate y aceite de oliva'),nl,
   writeln('Arandanos.'),nl,
@@ -453,11 +465,12 @@ menuDetox2(nl, writeln('Desayuno'),nl,
   writeln('Cena'),nl,
   writeln('Batido detox(pepino, piña,semillas de sesamo,uvas)'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
                      
               
 %Detalles de la dieta Hipercalorica 2500kcal
-menuHiper1(nl, writeln('Desayuno'),nl,
+menuHiper1():-
+  nl, writeln('Desayuno'),nl,
  writeln('200 ml de leche'),nl,
  writeln('60 g de cereales integrales.'),nl,
  writeln('1 yogurt.'),nl,
@@ -495,11 +508,12 @@ menuHiper1(nl, writeln('Desayuno'),nl,
  writeln('40 g de pan.'),nl,
  writeln('300 g de mandarinas.'),nl,
  writeln('****************'),nl,
- writeln('Que lo disfrute'),nl).
+ writeln('Que lo disfrute'),nl.
             
             
 %Detalles de la dieta Hipercalorica 3500kcal
-menuHiper2(nl, writeln('Desayuno'),nl,
+menuHiper2():-
+nl, writeln('Desayuno'),nl,
  writeln('2 yogures desnatados.'),nl,
  writeln('100 g de galletas.'),nl,
  writeln('3 piezas de fruta.'),nl,
@@ -534,11 +548,12 @@ menuHiper2(nl, writeln('Desayuno'),nl,
  writeln('100 g de pan.'),nl,
  writeln('240 g de manzana.'),nl,
  writeln('****************'),nl,
- writeln('Que lo disfrute'),nl).
+ writeln('Que lo disfrute'),nl.
         
    
 %Detalles de la dieta Hipocalorica 1200kcal
-menuHipo1(nl, writeln('Desayuno'),nl,
+menuHipo1():-
+  nl, writeln('Desayuno'),nl,
   writeln('1 vaso de leche desnatada.'),nl,
   writeln('40 g de cereales.'),nl,
   writeln('cafe o infusion'),nl,
@@ -570,10 +585,11 @@ menuHipo1(nl, writeln('Desayuno'),nl,
   writeln('20 g de pan.'),nl,
   writeln('50 g de cerezas.'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
+  writeln('Que lo disfrute'),nl.
 
 %Detalles de la dieta Hipocalorica 1500kcal
-menuHipo2(nl, writeln('Desayuno'),nl,
+menuHipo2():- 
+  nl, writeln('Desayuno'),nl,
   writeln('2 yogures desnatados.'),nl,
   writeln('50 g de galletas.'),nl,
   writeln('Cafe o infusion.'),nl,
@@ -601,5 +617,34 @@ menuHipo2(nl, writeln('Desayuno'),nl,
   writeln('200 g de naranja.'),nl,
   writeln('3 huevos'),nl,
   writeln('****************'),nl,
-  writeln('Que lo disfrute'),nl).
-                                                        
+  writeln('Que lo disfrute'),nl.
+                                                   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -85,10 +85,6 @@ compareCalorias([H|T], X):- listaCalorias(L),
 listaCalorias(L) :- findall(X, (diet([_,_,X,_,_,_,_,_,_])) , L).
 
 
-
-
-
-
 compareActividad([],X):- nl, writeln('La actividad no se encuentra'),
             writeln('Intente de nuevo'),nl,
             input_to_list(Oracion),
@@ -186,17 +182,25 @@ ingresarDatos(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,
 
 	% Se validan los datos y se busca la referencia en caso de existir
 	buscarDietaConDatosIngresados(NombreTemp, Padecimientos, Calorias, Actividad, Frecuencia, TipoDieta, MenuDietaTemp).
+	
+	
 
 
 %Función para verificar que los datos ingresados por el usuario se encuentren en la base de datos.
 verificarDatos(NombreDieta, NombreIngresado, NombreIngresado2, MenuDieta, MenuDietaDisponibles):-
 	miembro(NombreDieta, NombreIngresado),
-	miembro(NombreDieta, NombreIngresado2),
-	miembro(MenuDieta, MenuDietaDisponibles).
+	miembro(NombreDieta, NombreIngresado2).
+	
+
+	%miembro(MenuDieta, MenuDietaDisponibles).
+
 
 
 %Realiza una busqueda de la dietaa recomendar según los datos que obtuvo del usuario.
+
 buscarDietaConDatosIngresados(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,MenuDieta):-
+	
+	findall(X, (diet([_,TipoDieta,Calorias,_,_,_,_,_,X]),X),L),
 	diet([NombreDieta,TipoDieta,Calorias,[Padecimientos],[Padecimientos],[Actividad],[Actividad], [MenuDieta]]),
 	padecimientos([NombreIngresado]),
 	calorias([NombreIngresado2]),

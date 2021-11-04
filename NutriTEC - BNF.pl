@@ -50,8 +50,6 @@ verb([realizar|S],S).
 verb([quiero|S],S).
 verb([hago|S],S).
 verb([realizo|S],S).
-
-
 verb([me,gustaria|S],S).
 verb([me,diagnosticaron|S],S).
 verb([deseo,llevar|S],S).
