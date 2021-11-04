@@ -200,13 +200,26 @@ verificarDatos(NombreDieta, NombreIngresado, NombreIngresado2, MenuDieta, MenuDi
 
 buscarDietaConDatosIngresados(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,MenuDieta):-
 	
-	findall(X, (diet([_,TipoDieta,Calorias,_,_,_,_,_,X]),X),L),
-	diet([NombreDieta,TipoDieta,Calorias,[Padecimientos],[Padecimientos],[Actividad],[Actividad], [MenuDieta]]),
-	padecimientos([NombreIngresado]),
-	calorias([NombreIngresado2]),
-	verificarDatos(NombreDieta, NombreIngresado, NombreIngresado2, MenuDieta, MenuDietaDisponibles),
-	crearReferencia(NombreDieta,MenuDieta),
-	buscarNuevamente(), !.
+	findall(X, (diet([_,TipoDieta,Calorias,Frecuencia,_,_,_,_,X]),X),L),!.
+
+buscarDietaConDatosIngresados(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,MenuDieta):-
+	
+	findall(X, (diet([_,_,Calorias,Frecuencia,_,_,_,Actividad,X]),X),L),!.
+
+buscarDietaConDatosIngresados(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,MenuDieta):-
+	
+	findall(X, (diet([_,TipoDieta,_,Frecuencia,_,_,_,Actividad,X]),X),L),!.
+
+buscarDietaConDatosIngresados(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,MenuDieta):-
+	
+	findall(X, (diet([_,TipoDieta,Calorias,_,_,_,_,Actividad,X]),X),L),!.
+
+	%diet([NombreDieta,TipoDieta,Calorias,[Padecimientos],[Padecimientos],[Actividad],[Actividad], [MenuDieta]]),
+	%padecimientos([NombreIngresado]),
+	%calorias([NombreIngresado2]),
+	%verificarDatos(NombreDieta, NombreIngresado, NombreIngresado2, MenuDieta, MenuDietaDisponibles),
+	%crearReferencia(NombreDieta,MenuDieta),
+	%buscarNuevamente(), !.
 
 
 buscarDietaConDatosIngresados(NombreDieta,Padecimientos,Calorias,Actividad,Frecuencia,TipoDieta,MenuDieta):-
